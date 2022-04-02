@@ -1,0 +1,61 @@
+.App-Bar{
+  display: flex;
+  /* background-color: blue; */
+  height: 54.8px;
+  width: 100%;
+  margin-top: 56px;
+  background-color: #f4f3e9;
+}
+
+.Logo{
+  margin-left: 69px;
+  width: 200px;
+  height: 54.8px;
+  background-color: aqua;
+}
+
+.Menu{
+  display: flex;
+  justify-content: flex-end;
+  width: calc(100% - 200px - 69px - 45px);
+}
+
+#Home{
+  color: red;
+}
+
+.Menu-List{
+  font-size: 20;
+  margin-right: 45px;
+  font-weight: 500;
+}
+
+.Connect-Wallet-Button{
+  
+  width: 248px;
+  height: 100%;
+  background-color: red;
+  color: white;
+  font-weight:700;
+  text-align: center;
+  line-height: 54.8px;
+  border-radius: 14px;
+  font-size: 25;
+  
+}
+
+.Main-Box{
+  margin-left: 195px;
+  margin-top: 98.2px;
+}
+
+.Title{
+  font-size: 50px;
+  
+}
+
+.Mint-Box{
+  width: 80%;
+  height: 600px;
+  background-color: white;
+}
