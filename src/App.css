@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Heebo";       
+  src: url("./fonts/Heebo-VariableFont_wght.ttf"); 
+}
+
+@font-face {
+  font-family: "Rockwell";       
+  src: url("./fonts/Rockwell-Bold.ttf"); 
+}
+
 .App-Bar{
   display: flex;
   /* background-color: blue; */
@@ -11,7 +21,7 @@
   margin-left: 69px;
   width: 200px;
   height: 54.8px;
-  background-color: aqua;
+ 
 }
 
 .Menu{
@@ -24,10 +34,10 @@
   color: red;
 }
 
-.Menu-List{
+.Menu > p{
   font-size: 20;
   margin-right: 45px;
-  font-weight: 500;
+  font-family: "Heebo";
 }
 
 .Connect-Wallet-Button{
@@ -47,15 +57,32 @@
 .Main-Box{
   margin-left: 195px;
   margin-top: 98.2px;
+  position: relative;
 }
 
 .Title{
   font-size: 50px;
-  
+  font-family: "Rockwell";
+  margin-right: 123px;
+}
+
+.Title-Box{
+  display: flex;
+  position: absolute;
+
+}
+
+.Main-Image{
+  width: 403px;
+  margin-right: 32px;
 }
 
 .Mint-Box{
   width: 80%;
   height: 600px;
   background-color: white;
+  position: absolute;
+  margin-top: 123px;
+  border-radius: 20px;
+  opacity: 0.96;
 }
