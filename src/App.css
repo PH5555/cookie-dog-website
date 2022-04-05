@@ -8,20 +8,31 @@
   src: url("./fonts/Rockwell-Bold.ttf"); 
 }
 
+@font-face {
+  font-family: "DaysOne";       
+  src: url("./fonts/DaysOne-Regular.ttf"); 
+}
+
+@font-face {
+  font-family: "Rock";       
+  src: url("./fonts/ROCK.TTF"); 
+}
+
+.Top-Area{
+  height: 100%;
+  background-color: #f4f3e9;
+}
+
 .App-Bar{
   display: flex;
-  /* background-color: blue; */
   height: 54.8px;
   width: 100%;
-  margin-top: 56px;
-  background-color: #f4f3e9;
+  padding-top: 56px;
 }
 
 .Logo{
   margin-left: 69px;
-  width: 200px;
   height: 54.8px;
- 
 }
 
 .Menu{
@@ -41,7 +52,6 @@
 }
 
 .Connect-Wallet-Button{
-  
   width: 248px;
   height: 100%;
   background-color: red;
@@ -51,25 +61,28 @@
   line-height: 54.8px;
   border-radius: 14px;
   font-size: 25;
-  
 }
 
 .Main-Box{
   margin-left: 195px;
   margin-top: 98.2px;
   position: relative;
+  height: 1000px;
+  width: auto;
 }
 
-.Title{
+.Main-Title{
   font-size: 50px;
   font-family: "Rockwell";
   margin-right: 123px;
+  margin-left: 26px;
 }
 
 .Title-Box{
   display: flex;
   position: absolute;
-
+  height: auto;
+  width: auto;
 }
 
 .Main-Image{
@@ -79,10 +92,82 @@
 
 .Mint-Box{
   width: 80%;
-  height: 600px;
   background-color: white;
   position: absolute;
+  display: flex;
   margin-top: 123px;
+  margin-bottom: 111px;
   border-radius: 20px;
   opacity: 0.96;
+  float: left;
+}
+
+.NFT-Image{
+  margin-top: 44px;
+  margin-left: 55px;
+  margin-bottom: 68px;
+  width: 36%;
+  float: left;
+  padding-bottom: 36%;
+  border-radius: 20px;
+  background-color: pink;
+}
+
+.NFT-Content{
+  margin-left: 66px;
+}
+
+.NFT-Number{
+  margin: auto;
+  font-family: "Rockwell";
+  font-size: 63px;
+}
+
+.NTF-Name{
+  margin-top: 63px;
+  font-family: "Rock";
+  font-size: 30px;
+  margin-bottom: 1px;
+}
+
+.Date-And-Button{
+  margin-left: 78px;
+}
+
+.Date{
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 27px;
+}
+
+.Mint-Button{
+  width: 262px;
+  height: 63px;
+  border-radius: 14px;
+  background-color: #c4c4c4;
+  color: white;
+  text-align: center;
+  line-height: 63px;
+  font-size: 28px;
+  font-weight: bold;
+  margin-left: calc((100% - 262px) / 2);
+}
+
+.Current-Situation{
+  font-size: 30px;
+  margin-top: 12px;
+}
+
+.View-Cookies-Area{
+
+}
+
+.Cookies{
+
+}
+
+.Cookies-Title{
+  font-family: "DaysOne";
+  font-size: 60px;
+  margin-left: calc((100% - 100px) / 2);
 }
