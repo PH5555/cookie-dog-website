@@ -18,8 +18,13 @@
   src: url("./fonts/ROCK.TTF"); 
 }
 
+@font-face {
+  font-family: "Roboto";       
+  src: url("./fonts/DaysOne-Regular.ttf"); 
+}
+
 .Top-Area{
-  height: 100%;
+  height: auto;
   background-color: #f4f3e9;
 }
 
@@ -46,8 +51,9 @@
 }
 
 .Menu > p{
-  font-size: 20;
+  font-size: 2rem;
   margin-right: 45px;
+  font-weight: 500;
   font-family: "Heebo";
 }
 
@@ -60,19 +66,19 @@
   text-align: center;
   line-height: 54.8px;
   border-radius: 14px;
-  font-size: 25;
+  font-size: 2.5rem;
 }
 
 .Main-Box{
   margin-left: 195px;
   margin-top: 98.2px;
   position: relative;
-  height: 1000px;
+  height: 900px;
   width: auto;
 }
 
 .Main-Title{
-  font-size: 50px;
+  font-size: 5rem;
   font-family: "Rockwell";
   margin-right: 123px;
   margin-left: 26px;
@@ -95,7 +101,7 @@
   background-color: white;
   position: absolute;
   display: flex;
-  margin-top: 123px;
+  margin-top: 143px;
   margin-bottom: 111px;
   border-radius: 20px;
   opacity: 0.96;
@@ -120,23 +126,25 @@
 .NFT-Number{
   margin: auto;
   font-family: "Rockwell";
-  font-size: 63px;
+  font-size: 6.3rem;
 }
 
 .NTF-Name{
   margin-top: 63px;
   font-family: "Rock";
-  font-size: 30px;
+  font-size: 3rem;
   margin-bottom: 1px;
 }
 
 .Date-And-Button{
+  margin-top: 19.3%;
+  text-align: center;
   margin-left: 78px;
 }
 
 .Date{
   font-weight: bold;
-  font-size: 36px;
+  font-size: 3.6rem;
   margin-bottom: 27px;
 }
 
@@ -148,26 +156,67 @@
   color: white;
   text-align: center;
   line-height: 63px;
-  font-size: 28px;
+  font-size: 2.8rem;
   font-weight: bold;
   margin-left: calc((100% - 262px) / 2);
 }
 
 .Current-Situation{
-  font-size: 30px;
+  font-size: 3rem;
   margin-top: 12px;
-}
-
-.View-Cookies-Area{
-
-}
-
-.Cookies{
-
+  font-family: "Roboto";
 }
 
 .Cookies-Title{
   font-family: "DaysOne";
-  font-size: 60px;
-  margin-left: calc((100% - 100px) / 2);
+  font-size: 6rem;
+  margin-left: 172px;
+  margin-top: 104px;
+}
+
+.Cookies-List{
+  width: 83%;
+  height: auto;
+  margin-left: 8%;
+  margin-top: 58px;
+}
+
+.Cookie-Card{
+  width: 30%;
+  height: 682px;
+  border-radius: 18px;
+  background-color: black;
+  text-align: center;
+  margin-right: 3.3%;
+}
+
+.Cookie-Image{
+  display: inline-block;
+  margin-top: 2.2rem;
+  width: 90%;
+  height: 300px;
+  background-color: aqua;
+}
+
+.Cookie-Description-And-Play-Button{
+  margin-top: 1.6rem;
+  display: flex;
+}
+
+.Cookie-Description{
+  margin-left: 3.3rem;
+}
+
+.Cookie-Number{
+  font-family: "Rockwell";
+  font-size: 4rem;
+  color: white;
+  margin: 0 auto;
+}
+
+.Cookie-Artist{
+  font-size: 2rem;
+  font-family: "Roboto";
+  color: white;
+  margin: 0 auto;
 }

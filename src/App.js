@@ -39,13 +39,25 @@ function App() {
           
         </div>
       </div>
-{/* 
+
       <div className='View-Cookies-Area'>
         <div className='Cookies'>
           <div className='Cookies-Title'>ALL COOKIES</div>
+          <div className='Cookies-List'>
+            <div className='Cookie-Card'>
+              <div className='Cookie-Image'>
 
+              </div>
+              <div className='Cookie-Description-And-Play-Button'>
+                <div className='Cookie-Description'>
+                  <p className='Cookie-Number'>#032</p>
+                  <p className='Cookie-Artist'>/Dr. Ahn</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
