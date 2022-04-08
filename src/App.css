@@ -29,6 +29,7 @@
 }
 
 .App-Bar{
+  align-items: center;
   display: flex;
   height: 54.8px;
   width: 100%;
@@ -36,14 +37,14 @@
 }
 
 .Logo{
-  margin-left: 69px;
+  margin-left: 6.5rem;
   height: 54.8px;
 }
 
 .Menu{
   display: flex;
   justify-content: flex-end;
-  width: calc(100% - 200px - 69px - 45px);
+  width: calc(100% - 200px);
 }
 
 #Home{
@@ -51,36 +52,37 @@
 }
 
 .Menu > p{
-  font-size: 2rem;
-  margin-right: 45px;
+  font-size: 1.4rem;
+  margin-right: 4.5rem;
   font-weight: 500;
   font-family: "Heebo";
 }
 
 .Connect-Wallet-Button{
-  width: 248px;
-  height: 100%;
+  width: 24.8rem;
+  height: 4rem;
+  line-height: 4rem;
   background-color: red;
   color: white;
-  font-weight:700;
+  font-weight:bold;
+  margin-right: 6.5rem;
   text-align: center;
-  line-height: 54.8px;
-  border-radius: 14px;
-  font-size: 2.5rem;
+  border-radius: 12px;
+  font-size: 1.7rem;
 }
 
 .Main-Box{
   margin-left: 195px;
-  margin-top: 98.2px;
+  margin-top: 4.1rem;
   position: relative;
   height: 900px;
   width: auto;
 }
 
 .Main-Title{
-  font-size: 5rem;
+  font-size: 2.6vw;
   font-family: "Rockwell";
-  margin-right: 123px;
+  margin-right: 10.1%;
   margin-left: 26px;
 }
 
@@ -92,7 +94,7 @@
 }
 
 .Main-Image{
-  width: 403px;
+  width: 21%;
   margin-right: 32px;
 }
 
