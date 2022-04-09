@@ -6,7 +6,6 @@ function App() {
 
   return (
     <div className="App">
-
       <div className='Top-Area'>
         <div className='App-Bar'>
           <img className="Logo"  src="img/logo.png" />
@@ -31,7 +30,7 @@ function App() {
               <p className='NFT-Number'>#078</p>
             </div>
             <div className='Date-And-Button'>
-              <p className='Date'>6 April, 12PM EDT</p>
+              <div className='Date'>6 April, 12PM EDT</div>
               <div className='Mint-Button'>Mint Now</div>
               <p className='Current-Situation'>20/20</p>
             </div>

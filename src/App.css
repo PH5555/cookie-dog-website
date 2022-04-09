@@ -24,11 +24,13 @@
 }
 
 .Top-Area{
+  min-width: 1200px;
   height: auto;
   background-color: #f4f3e9;
 }
 
 .App-Bar{
+  min-width: 1125px;
   align-items: center;
   display: flex;
   height: 54.8px;
@@ -80,13 +82,14 @@
 }
 
 .Main-Title{
-  font-size: 2.6vw;
+  font-size: max(2.6vw, 32px);
   font-family: "Rockwell";
   margin-right: 10.1%;
   margin-left: 26px;
 }
 
 .Title-Box{
+  min-width: 953px;
   display: flex;
   position: absolute;
   height: auto;
@@ -94,11 +97,12 @@
 }
 
 .Main-Image{
-  width: 21%;
+  width: max(21%, 200px);
   margin-right: 32px;
 }
 
 .Mint-Box{
+  min-width: 762px;
   width: 80%;
   background-color: white;
   position: absolute;
@@ -127,43 +131,45 @@
 .NFT-Number{
   margin: auto;
   font-family: "Rockwell";
-  font-size: 6.3rem;
+  font-size: max(3.125vw, 41px);
 }
 
 .NTF-Name{
   margin-top: 63px;
   font-family: "Rock";
-  font-size: 3rem;
+  font-size: max(1.56vw, 21px);
   margin-bottom: 1px;
 }
 
 .Date-And-Button{
   margin-top: 19.3%;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-left: 78px;
 }
 
 .Date{
   font-weight: bold;
-  font-size: 3.6rem;
+  font-size: max(1.875vw, 21px);
   margin-bottom: 27px;
 }
 
 .Mint-Button{
-  width: 262px;
-  height: 63px;
+  width: max(13.6458vw, 154px);
+  height: max(3.288vw, 37px);
   border-radius: 14px;
   background-color: #c4c4c4;
   color: white;
   text-align: center;
-  line-height: 63px;
-  font-size: 2.8rem;
+  line-height: max(3.288vw, 37px);
+  font-size: max(1.458vw, 20px);
   font-weight: bold;
-  margin-left: calc((100% - 262px) / 2);
 }
 
 .Current-Situation{
-  font-size: 3rem;
+  font-size: max(1.5625vw, 18px);
   margin-top: 12px;
   font-family: "Roboto";
 }
@@ -271,12 +277,12 @@
 
 .Project-Description{
   height: 1000px;
-  width: 100%;
+  min-width: 1200px;
   background-color: #c64045;
 }
 
 .Bottom-Bar{
-  width: 100%;
+  min-width: 1200px;
   background-color: black;
 }
 
