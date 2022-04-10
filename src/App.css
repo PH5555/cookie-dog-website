@@ -24,7 +24,7 @@
 }
 
 .Top-Area{
-  min-width: 1200px;
+  min-width: 120rem;
   height: auto;
   background-color: #f4f3e9;
 }
@@ -33,20 +33,20 @@
   min-width: 1125px;
   align-items: center;
   display: flex;
-  height: 54.8px;
+  height: 4.6rem;
   width: 100%;
-  padding-top: 56px;
+  padding-top: 5.5rem;
 }
 
 .Logo{
-  margin-left: 6.5rem;
-  height: 54.8px;
+  margin-left: 6rem;
+  height: 4.6rem;
 }
 
 .Menu{
   display: flex;
   justify-content: flex-end;
-  width: calc(100% - 200px);
+  width: calc(100% - 47.7rem);
 }
 
 #Home{
@@ -54,78 +54,79 @@
 }
 
 .Menu > p{
-  font-size: 1.4rem;
-  margin-right: 4.5rem;
+  font-size: 1.5rem;
+  margin-right: 5.5rem;
   font-weight: 500;
   font-family: "Heebo";
 }
 
 .Connect-Wallet-Button{
-  width: 24.8rem;
-  height: 4rem;
-  line-height: 4rem;
+  width: 20rem;
+  height: 4.5rem;
+  line-height: 4.5rem;
   background-color: red;
   color: white;
   font-weight:bold;
   margin-right: 6.5rem;
   text-align: center;
-  border-radius: 12px;
-  font-size: 1.7rem;
+  border-radius: 14px;
+  font-size: 1.8rem;
 }
 
 .Main-Box{
-  margin-left: 195px;
-  margin-top: 4.1rem;
+  margin-left: 26.5rem;
+  margin-top: 4.8rem;
   position: relative;
-  height: 900px;
-  width: auto;
+  height: 90rem;
+  
 }
 
 .Main-Title{
-  font-size: max(2.6vw, 32px);
+  font-size: max(2.5vw, 2.9rem);
   font-family: "Rockwell";
-  margin-right: 10.1%;
-  margin-left: 26px;
+  margin-right: max(13.4895vw, 16.1rem);
+  margin-left: 1rem;
+  white-space: nowrap;
 }
 
 .Title-Box{
-  min-width: 953px;
+  overflow-x:hidden; overflow-y:auto;
+  min-width: 95.3rem;
   display: flex;
   position: absolute;
   height: auto;
-  width: auto;
+  
 }
 
 .Main-Image{
-  width: max(21%, 200px);
-  margin-right: 32px;
+  width: max(20.98vw, 251px);
 }
 
 .Mint-Box{
-  min-width: 762px;
+  min-width: 76.2rem;
   width: 80%;
   background-color: white;
   position: absolute;
   display: flex;
-  margin-top: 143px;
-  margin-bottom: 111px;
+  margin-top: 14.3rem;
+  margin-bottom: 11.1rem;
   border-radius: 20px;
   opacity: 0.96;
   float: left;
 }
 
 .NFT-Image{
-  margin-top: 44px;
-  margin-left: 55px;
-  margin-bottom: 68px;
-  width: 36%;
+  margin-top: 4.8rem;
+  margin-left: 4.8rem;
+  margin-bottom: 4.8rem;
+  width: 37.1%;
   float: left;
   border-radius: 20px;
   background-color: pink;
 }
 
 .NFT-Content{
-  margin-left: 66px;
+  margin-left: 6.6rem;
 }
 
 .NFT-Number{
@@ -135,7 +136,7 @@
 }
 
 .NTF-Name{
-  margin-top: 63px;
+  margin-top: 6.3rem;
   font-family: "Rock";
   font-size: max(1.56vw, 21px);
   margin-bottom: 1px;
@@ -147,13 +148,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 78px;
+  margin-left: 7.8rem;
 }
 
 .Date{
   font-weight: bold;
   font-size: max(1.875vw, 21px);
-  margin-bottom: 27px;
+  margin-bottom: 2.7rem;
 }
 
 .Mint-Button{
@@ -170,89 +171,96 @@
 
 .Current-Situation{
   font-size: max(1.5625vw, 18px);
-  margin-top: 12px;
+  margin-top: 1.2rem;
   font-family: "Roboto";
+}
+
+.View-Cookies-Area{
+  min-width: 120rem;
 }
 
 .Cookies-Title{
   font-family: "DaysOne";
-  font-size: 6rem;
-  margin-left: 172px;
+  font-size: 5rem;
+  margin-left: 13.1vw;
   margin-top: 104px;
 }
 
 .Cookies-List{
-  width: 83%;
   height: auto;
-  margin-left: 8%;
+  margin-left: 13.1vw;
   display: flex;
   flex-wrap: wrap;
   margin-top: 58px;
 }
 
 .Cookie-Card{
-  width: 30%;
-  height: 682px;
+  width: 22.7vw;
+  height: auto;
   border-radius: 18px;
   background-color: black;
   text-align: center;
-  margin-right: 3.3%;
-  margin-bottom: 76px;
+  margin-right: 2.76vw;
+  margin-bottom: 75px;
 }
 
 .Cookie-Image{
   display: inline-block;
-  margin-top: 2.2rem;
-  width: 90%;
+  margin-top: 2rem;
+  width: 88.3%;
   
 }
 
 .Cookie-Description-And-Play-Button{
-  margin-top: 1.6rem;
+  margin-top: 2.6rem;
   display: flex;
 }
 
 .Cookie-Description{
-  margin-left: 3.3rem;
+  margin-left: 3.2rem;
   text-align: left;
   width: calc(100% - 89px);
 }
 
 .Cookie-Number{
   font-family: "Rockwell";
-  font-size: 4rem;
+  font-size: 2.08vw;
   color: white;
   margin: 0 auto;
 }
 
 .Cookie-Artist{
-  font-size: 2rem;
+  font-size: 1.0416vw;
   font-family: "Roboto";
   color: white;
-
   margin: 0 auto;
 }
 
-.Play-Button{
-  width: 99px;
-  height: 89px;
-  margin-right: 3rem;
-  background-color: aqua;
+.Cookie-Situation{
+  margin: 0 auto;
+  margin-left: 3.2rem;
+  width: 100%;
+  text-align: left;
+  font-size: 1.95vw;
+  margin-top: 2.5rem;
+  color: white;
 }
 
-.Divider{
-  width: calc(100% - 34px);
-  height: 1px;
-  margin-left: 17px;
-  margin-top: 50px;
-  background-color: #c4c4c4;
+.Play-Button{
+  width: 4.6vw;
+  margin-right: 2.3rem;
 }
 
 .Connect-Link{
+  line-height: 3.792vw;
   width: 100%;
-  margin-top: 20px;
+  height: 3.792vw;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #292929;
+  margin-top: 14px;
   color: white;
-  font-size: 2.4rem;
+  font-size: 1.354vw;
 }
 
 .Show-More-Button{
@@ -267,7 +275,7 @@
   width: 33.8rem;
   height: 66px;
   color: white;
-  font-size: 2.8rem;
+  font-size: 1.354vw;
   font-weight: bold;
   line-height: 66px;
   text-align: center;
@@ -277,12 +285,12 @@
 
 .Project-Description{
   height: 1000px;
-  min-width: 1200px;
+  min-width: 120rem;
   background-color: #c64045;
 }
 
 .Bottom-Bar{
-  min-width: 1200px;
+  min-width: 120rem;
   background-color: black;
 }
 
@@ -303,7 +311,23 @@
   position: absolute;
   margin-left: 30.7rem;
   margin-top: 20px;
-  width: 100px;
-  height: 100px;
-  background-color: white;
+  
+}
+
+.SNS-List{
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.SNS{
+  width: 25px;
+}
+
+.SNS-List > p{
+  margin: 0 auto;
+  color: white;
+  font-family: "Heebo";
+  font-size: 14px;
+  margin-left: 29px;
 }

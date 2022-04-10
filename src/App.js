@@ -44,66 +44,75 @@ function App() {
           <div className='Cookies-Title'>ALL COOKIES</div>
           <div className='Cookies-List'>
             <div className='Cookie-Card'>
-              <img className='Cookie-Image' src="img/sample.png">
-
-              </img>
+              <img className='Cookie-Image' src="img/sample.png"></img>
               <div className='Cookie-Description-And-Play-Button'>
                 <div className='Cookie-Description'>
                   <p className='Cookie-Number'>#032</p>
                   <p className='Cookie-Artist'>/Dr. Ahn</p>
                 </div>
-                <div className='Play-Button'></div>
+                <img className='Play-Button' src='img/button.png'></img>
               </div>
-              <div className='Divider'></div>
+              <p className='Cookie-Situation'>0/20</p>
               <div className='Connect-Link'>view on opensea</div>
             </div>
+
             <div className='Cookie-Card'>
-              <img className='Cookie-Image' src="img/sample.png">
-
-              </img>
+              <img className='Cookie-Image' src="img/sample.png"></img>
               <div className='Cookie-Description-And-Play-Button'>
                 <div className='Cookie-Description'>
                   <p className='Cookie-Number'>#032</p>
                   <p className='Cookie-Artist'>/Dr. Ahn</p>
                 </div>
-                <div className='Play-Button'></div>
+                <img className='Play-Button' src='img/button.png'></img>
               </div>
-              <div className='Divider'></div>
+              <p className='Cookie-Situation'>0/20</p>
               <div className='Connect-Link'>view on opensea</div>
             </div>
+
             <div className='Cookie-Card'>
-              <img className='Cookie-Image' src="img/sample.png">
-
-              </img>
+              <img className='Cookie-Image' src="img/sample.png"></img>
               <div className='Cookie-Description-And-Play-Button'>
                 <div className='Cookie-Description'>
                   <p className='Cookie-Number'>#032</p>
                   <p className='Cookie-Artist'>/Dr. Ahn</p>
                 </div>
-                <div className='Play-Button'></div>
+                <img className='Play-Button' src='img/button.png'></img>
               </div>
-              <div className='Divider'></div>
+              <p className='Cookie-Situation'>0/20</p>
               <div className='Connect-Link'>view on opensea</div>
             </div>
+
             <div className='Cookie-Card'>
-              <img className='Cookie-Image' src="img/sample.png">
-
-              </img>
+              <img className='Cookie-Image' src="img/sample.png"></img>
               <div className='Cookie-Description-And-Play-Button'>
                 <div className='Cookie-Description'>
                   <p className='Cookie-Number'>#032</p>
                   <p className='Cookie-Artist'>/Dr. Ahn</p>
                 </div>
-                <div className='Play-Button'></div>
+                <img className='Play-Button' src='img/button.png'></img>
               </div>
-              <div className='Divider'></div>
+              <p className='Cookie-Situation'>0/20</p>
               <div className='Connect-Link'>view on opensea</div>
             </div>
-          </div>
-          <div className='Show-More-Button'>
+
+            <div className='Cookie-Card'>
+              <img className='Cookie-Image' src="img/sample.png"></img>
+              <div className='Cookie-Description-And-Play-Button'>
+                <div className='Cookie-Description'>
+                  <p className='Cookie-Number'>#032</p>
+                  <p className='Cookie-Artist'>/Dr. Ahn</p>
+                </div>
+                <img className='Play-Button' src='img/button.png'></img>
+              </div>
+              <p className='Cookie-Situation'>0/20</p>
+              <div className='Connect-Link'>view on opensea</div>
+            </div>
+
+            
+        </div>
+        <div className='Show-More-Button'>
             <div className='Show-More-Cookies'>Show More</div>
           </div>
-        </div>
       </div>
 
       <div className='Project-Description'>
@@ -113,10 +122,28 @@ function App() {
       <div className='Bottom-Bar'>
         <div className='Info'>
           <img className='White-Logo' src='img/logo-white.png'></img>
-          <div className='Contact'></div>
+          <div className='Contact'>
+            <div className='SNS-List'>
+              <img className='SNS' src='img/discord_icon.svg'></img>
+              <p>Discord</p>
+            </div>
+            <div className='SNS-List'>
+              <img className='SNS' src='img/twitter_icon.svg'></img>
+              <p>Twitter</p>
+            </div>
+            <div className='SNS-List'>
+              <img className='SNS' src='img/insta_icon.svg'></img>
+              <p>Instagram</p>
+            </div>
+            <div className='SNS-List'>
+              <img className='SNS' src='img/opensea_icon.svg'></img>
+              <p>Opensea</p>
+            </div>
+          </div>
         </div>
       </div>
 
+    </div>
     </div>
   );
 }
