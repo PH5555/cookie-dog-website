@@ -1,0 +1,78 @@
+  @font-face {
+    font-family: "Heebo";       
+    src: url("./fonts/Heebo-VariableFont_wght.ttf"); 
+  }
+  
+  @font-face {
+    font-family: "Rockwell";       
+    src: url("./fonts/Rockwell-Bold.ttf"); 
+  }
+  
+  @font-face {
+    font-family: "DaysOne";       
+    src: url("./fonts/DaysOne-Regular.ttf"); 
+  }
+  
+  @font-face {
+    font-family: "Rock";       
+    src: url("./fonts/ROCK.TTF"); 
+  }
+  
+  @font-face {
+    font-family: "Roboto";       
+    src: url("./fonts/DaysOne-Regular.ttf"); 
+  }
+  
+  .App-Bar{
+    z-index: 1;
+    min-width: 1125px;
+    align-items: center;
+    display: flex;
+    height: 4.6rem;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    padding-top: 3rem;
+  }
+  
+  .Logo{
+    margin-left: 6rem;
+    height: 4.6rem;
+  }
+  
+  .Menu{
+    display: flex;
+    justify-content: flex-end;
+    width: calc(100% - 47.7rem);
+  }
+  
+  #Home{
+    color: red;
+  }
+
+  .Cookies-Link{
+    box-shadow: none;
+    text-decoration: none;
+    color: black;
+  }
+
+  .Menu-Item{
+    font-size: 1.4rem;
+    margin-right: 5.5rem;
+    font-weight: 500;
+    font-family: "Heebo";
+  }
+  
+  .Connect-Wallet-Button{
+    width: 20rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    background-color: red;
+    color: white;
+    font-weight:bold;
+    margin-right: 6.5rem;
+    text-align: center;
+    border-radius: 14px;
+    font-size: 1.5rem;
+  }
