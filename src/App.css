@@ -35,7 +35,7 @@
   display: flex;
   height: 4.6rem;
   width: 100%;
-  padding-top: 5.5rem;
+  padding-top: 3rem;
 }
 
 .Logo{
@@ -54,7 +54,7 @@
 }
 
 .Menu > p{
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-right: 5.5rem;
   font-weight: 500;
   font-family: "Heebo";
@@ -70,15 +70,14 @@
   margin-right: 6.5rem;
   text-align: center;
   border-radius: 14px;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .Main-Box{
-  margin-left: 26.5rem;
+  margin-left: 13.802vw;
   margin-top: 4.8rem;
   position: relative;
-  height: 90rem;
-  
+  height: 80rem;
 }
 
 .Main-Title{
@@ -104,11 +103,11 @@
 
 .Mint-Box{
   min-width: 76.2rem;
-  width: 80%;
+  width: 72.3958vw;
   background-color: white;
   position: absolute;
   display: flex;
-  margin-top: 14.3rem;
+  margin-top: 11.3rem;
   margin-bottom: 11.1rem;
   border-radius: 20px;
   opacity: 0.96;
@@ -116,9 +115,9 @@
 }
 
 .NFT-Image{
-  margin-top: 4.8rem;
-  margin-left: 4.8rem;
-  margin-bottom: 4.8rem;
+  margin-top: 4.5%;
+  margin-left: 4.5%;
+  margin-bottom: 4.5%;
   width: 37.1%;
   float: left;
   border-radius: 20px;
@@ -126,7 +125,12 @@
 }
 
 .NFT-Content{
-  margin-left: 6.6rem;
+  margin-left: 5.8rem;
+}
+
+.NFT-Box{
+  position: relative;
+  width: calc(62.9% - 4.8rem);
 }
 
 .NFT-Number{
@@ -145,10 +149,10 @@
 .Date-And-Button{
   margin-top: 19.3%;
   display: flex;
+  text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 7.8rem;
 }
 
 .Date{

@@ -25,15 +25,18 @@ function App() {
           </div>
           <div className='Mint-Box'>
             <img className='NFT-Image' src='img/sample.png'></img>
-            <div className='NFT-Content'>
-              <p className='NTF-Name'>MuteHoon</p>
-              <p className='NFT-Number'>#078</p>
+            <div className='NFT-Box'>
+              <div className='NFT-Content'>
+                <p className='NTF-Name'>MuteHoon</p>
+                <p className='NFT-Number'>#078</p>
+              </div>
+              <div className='Date-And-Button'>
+                <div className='Date'>6 April, 12PM EDT</div>
+                <div className='Mint-Button'>Mint Now</div>
+                <p className='Current-Situation'>20/20</p>
+              </div>
             </div>
-            <div className='Date-And-Button'>
-              <div className='Date'>6 April, 12PM EDT</div>
-              <div className='Mint-Button'>Mint Now</div>
-              <p className='Current-Situation'>20/20</p>
-            </div>
+            
           </div>
           
         </div>
