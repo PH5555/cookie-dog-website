@@ -1,4 +1,5 @@
 import './Home.css';
+import CookieCard from './CookieCard';
 
 function Home(){
     return (
@@ -31,69 +32,10 @@ function Home(){
             <div className='Cookies'>
               <div className='Cookies-Title'>ALL COOKIES</div>
               <div className='Cookies-List'>
-                <div className='Cookie-Card'>
-                  <img className='Cookie-Image' src="img/sample.png"></img>
-                  <div className='Cookie-Description-And-Play-Button'>
-                    <div className='Cookie-Description'>
-                      <p className='Cookie-Number'>#032</p>
-                      <p className='Cookie-Artist'>/Dr. Ahn</p>
-                    </div>
-                    <img className='Play-Button' src='img/button.png'></img>
-                  </div>
-                  <p className='Cookie-Situation'>0/20</p>
-                  <div className='Connect-Link'>view on opensea</div>
-                </div>
-                <div className='Cookie-Card'>
-                  <img className='Cookie-Image' src="img/sample.png"></img>
-                  <div className='Cookie-Description-And-Play-Button'>
-                    <div className='Cookie-Description'>
-                      <p className='Cookie-Number'>#032</p>
-                      <p className='Cookie-Artist'>/Dr. Ahn</p>
-                    </div>
-                    <img className='Play-Button' src='img/button.png'></img>
-                  </div>
-                  <p className='Cookie-Situation'>0/20</p>
-                  <div className='Connect-Link'>view on opensea</div>
-                </div>
-    
-                <div className='Cookie-Card'>
-                  <img className='Cookie-Image' src="img/sample.png"></img>
-                  <div className='Cookie-Description-And-Play-Button'>
-                    <div className='Cookie-Description'>
-                      <p className='Cookie-Number'>#032</p>
-                      <p className='Cookie-Artist'>/Dr. Ahn</p>
-                    </div>
-                    <img className='Play-Button' src='img/button.png'></img>
-                  </div>
-                  <p className='Cookie-Situation'>0/20</p>
-                  <div className='Connect-Link'>view on opensea</div>
-                </div>
-    
-                <div className='Cookie-Card'>
-                  <img className='Cookie-Image' src="img/sample.png"></img>
-                  <div className='Cookie-Description-And-Play-Button'>
-                    <div className='Cookie-Description'>
-                      <p className='Cookie-Number'>#032</p>
-                      <p className='Cookie-Artist'>/Dr. Ahn</p>
-                    </div>
-                    <img className='Play-Button' src='img/button.png'></img>
-                  </div>
-                  <p className='Cookie-Situation'>0/20</p>
-                  <div className='Connect-Link'>view on opensea</div>
-                </div>
-    
-                <div className='Cookie-Card'>
-                  <img className='Cookie-Image' src="img/sample.png"></img>
-                  <div className='Cookie-Description-And-Play-Button'>
-                    <div className='Cookie-Description'>
-                      <p className='Cookie-Number'>#032</p>
-                      <p className='Cookie-Artist'>/Dr. Ahn</p>
-                    </div>
-                    <img className='Play-Button' src='img/button.png'></img>
-                  </div>
-                  <p className='Cookie-Situation'>0/20</p>
-                  <div className='Connect-Link'>view on opensea</div>
-                </div>
+                <CookieCard/>
+                <CookieCard/>
+                <CookieCard/>
+                <CookieCard/>
             </div>
             <div className='Show-More-Button'>
                 <div className='Show-More-Cookies'>Show More</div>
