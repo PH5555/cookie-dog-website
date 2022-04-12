@@ -41,11 +41,7 @@ function Home(){
                 <div className='Show-More-Cookies'>Show More</div>
               </div>
           </div>
-    
-          <div className='Project-Description'>
-    
-          </div>
-    
+          <div className='Project-Description'></div>
           <div className='Bottom-Bar'>
             <div className='Info'>
               <img className='White-Logo' src='img/logo-white.png'></img>

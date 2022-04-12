@@ -1,0 +1,18 @@
+.View-Cookies-Area{
+    min-width: 120rem;
+  }
+  
+  .Cookies-Title{
+    font-family: "DaysOne";
+    font-size: 5rem;
+    margin-left: 13.1vw;
+    margin-top: 104px;
+  }
+  
+  .Cookies-List{
+    height: auto;
+    margin-left: 13.1vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 58px;
+  }
