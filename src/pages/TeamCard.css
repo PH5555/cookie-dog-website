@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Rockwell";       
+    src: url("./fonts/Rockwell-Bold.ttf"); 
+}
+
+.Card{
+    width: max(20.3125vw, 25.3rem);
+    height: max(23.9583vw, 29.9rem);
+    background-color: white;
+    margin-right: max(5.10416vw, 6.3rem);
+    margin-bottom: 6.9rem;
+}
+
+.Profile-Img{
+    width: max(18.2291vw, 22,7rem);
+    height: max(18.2291vw, 22.7rem);
+    padding-left: max(1.0416vw, 1.298rem);
+    padding-top: 2.2rem;
+}
+
+.Name{
+    font-family: "Rockwell";
+    font-size: max(1.302vw, 1.622rem);
+    padding-left: max(1.302vw, 1.622rem);
+}
