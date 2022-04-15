@@ -24,8 +24,33 @@
   }
 
   @font-face {
+    font-family: "Roboto-Regular";       
+    src: url("./fonts/Roboto-Regular.ttf"); 
+  }
+
+  @font-face {
     font-family: "Bruno";       
     src: url("./fonts/Bruno\ Ace\ SC\ Regular.ttf"); 
+  }
+
+  @font-face {
+    font-family: "Arial-black";       
+    src: url("./fonts/ariblk.ttf"); 
+  }
+
+  @font-face {
+    font-family: "Arial-black";       
+    src: url("./fonts/ariblk.ttf"); 
+  }
+
+  @font-face {
+    font-family: "Elice-regular";       
+    src: url("./fonts/EliceDigitalBaeumOTF_Regular.otf"); 
+  }
+
+  @font-face {
+    font-family: "Klee-semibold";       
+    src: url("./fonts/KleeOne-SemiBold.ttf"); 
   }
   
   .Top-Area{
@@ -43,7 +68,7 @@
   
   .Main-Title{
     font-size: max(2.5vw, 2.9rem);
-    font-family: "Rockwell";
+    font-family: "Arial-black";
     margin-right: max(13.4895vw, 16.1rem);
     margin-left: 1rem;
     white-space: nowrap;

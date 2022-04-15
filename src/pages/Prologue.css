@@ -14,7 +14,6 @@
 }
 
 #Title-Text-En{
-    font-family: "Arial";
     padding-top: 20.2rem;
 }
 
@@ -23,12 +22,14 @@
 }
 
 .Content-En{
+    font-family: "Klee-semibold";
     font-size: 2.6rem;
     line-height: 4.5rem;
     color: white;
 }
 
 .Content-Kr{
+    font-family: "Elice-regular";
     font-size: 2.1rem;
     line-height: 4.5rem;
     color: white;

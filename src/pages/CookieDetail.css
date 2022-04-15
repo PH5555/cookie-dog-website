@@ -1,0 +1,170 @@
+.Cookie-Detail{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 17.6rem;
+    padding-bottom: 20rem;
+}
+
+.Cookie{
+    width: 59.84vw;
+    padding-bottom: 5rem;
+    background-color: #181818;
+    margin-right: 1.093vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.View{
+    width: 37.4%;
+    margin-right: 1.927vw;
+    margin-top: 1.927vw;
+}
+
+.Cookie-Detail-Img{
+    width: 100%;
+    margin-bottom: 2.8rem;
+}
+
+.View-Opensea{
+    background-color: #292929;
+    width: 100%;
+    height: 6.6rem;
+    display: flex;
+    align-items: center;
+}
+
+.View-Opensea > p{
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-left: 3.7rem;
+    padding-right: 1.2rem;
+    color: white;
+}
+
+.View-Opensea > img{
+    width: 1.458vw;
+}
+
+.Download-Contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Download{
+    width: 23.385vw;
+    height: calc((25.260vw + 11.4rem) / 2);
+    background-color: #181818;
+}
+
+.Contact-Address{
+    width: 23.385vw;
+    height: calc((25.260vw + 11.4rem) / 2);
+    background-color: #181818;
+}
+
+.Description-Play{
+    margin-top: 1.927vw;
+
+    width: 50.9%;
+}
+
+.Play-Music{
+    width: 100%;
+    height: 9.4rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.Play-Music > img{
+    width: 9.4rem;
+    padding-right: 2.5rem;
+}
+
+.Cookie-Detail-Name{
+    font-size: 4rem;
+    font-family: "Rockwell";
+    color: white;
+    margin: 0 auto;
+}
+
+.Cookie-Detail-Creator{
+    font-size: 2.2rem;
+    font-family: "Roboto";
+    color: #c4c4c4;
+    margin: 0 auto;
+}
+
+.Cookie-Available{
+    display: flex;
+    justify-content: end;
+    width: calc(100% - 30.2rem);
+}
+
+.Cookie-Available > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Cookie-Available > div > p{
+    font-family: "Rockwell";
+    font-size: 2.2rem;
+    margin: 0 auto;
+    color: white;
+}
+
+.Available-Current{
+    font-size: 3.2rem;
+}
+
+.Description-Detail{
+    overflow: scroll;
+    width: 100%;
+    height: calc(22.3958vw - 5.7rem);
+    margin-top: 5.7rem;
+    border: 0.5px solid #8b8b8b;
+}
+
+.Description-Title{
+    font-family: "Roboto";
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 1.4rem;
+}
+
+.Description-Content{
+    width: calc(100% - 3rem);
+    font-family: "Roboto-Regular";
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+    font-weight: normal;
+    line-height: 2.81rem;
+    color: white;
+}
+
+.Description-Detail > div{
+    margin-top: 3rem;
+    margin-left: 4rem;
+}
+
+.Desription-Flex{
+    display: flex;
+}
+
+#Title-Width{
+    width: 17rem;
+}
+
+#Content-Width{
+    width: auto;
+    margin: 0 auto;
+}

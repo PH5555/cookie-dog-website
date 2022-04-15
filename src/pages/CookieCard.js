@@ -2,7 +2,8 @@ import './CookieCard.css'
 
 function CookieCard(){
     return(
-        <div className='Cookie-Card'>
+       
+            <div className='Cookie-Card'>
             <img className='Cookie-Image' src="img/sample.png"></img>
                 <div className='Cookie-Description-And-Play-Button'>
                     <div className='Cookie-Description'>
@@ -13,7 +14,9 @@ function CookieCard(){
                 </div>
             <p className='Cookie-Situation'>0/20</p>
             <div className='Connect-Link'>view on opensea</div>
-        </div>
+            </div>
+        
+        
     )
 }
 
