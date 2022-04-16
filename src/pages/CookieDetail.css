@@ -47,7 +47,7 @@
 }
 
 .View-Opensea > img{
-    width: 1.458vw;
+    width: 2.8rem
 }
 
 .Download-Contact{
@@ -60,9 +60,70 @@
     width: 23.385vw;
     height: calc((25.260vw + 11.4rem) / 2);
     background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Download-Box{
+    margin-top: 3.7rem;
+    width: 80.1%;
+}
+
+.Download-Title{
+    display: flex;
+    margin-bottom: 1.3rem;
+}
+
+.Download-Title > img{
+    width: 3.3rem;
+    margin-right: 1.4rem;
+}
+
+.Download-Divider{
+    width: 100%;
+    border: 0.5px solid #c4c4c4;
+    margin-bottom: 4.4rem;
+}
+
+.Contact-Divider{
+    width: 100%;
+    border: 0.5px solid #c4c4c4;
+    margin-bottom: 2.8rem;
+}
+
+.Download-Title > p{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Arial";
+    color: white;
+    margin: 0 auto;
+}
+
+.Download-Area{
+    width: 100%;
+    display: flex;
+    margin-bottom: 2.5rem;
+}
+
+.Download-Area > p{
+    color: white;
+    font-family: "Roboto-Medium";
+    font-size: 2.3rem;
+    width: calc(100% - 3.3rem);
+    margin: 0 auto;
+    text-align: left;
+}
+
+.Download-Area > img{
+    width: 3.3rem;
+
 }
 
 .Contact-Address{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 23.385vw;
     height: calc((25.260vw + 11.4rem) / 2);
     background-color: #181818;
@@ -80,7 +141,6 @@
     display: flex;
     align-items: center;
 }
-
 
 .Play-Music > img{
     width: 9.4rem;
@@ -115,7 +175,8 @@
 }
 
 .Cookie-Available > div > p{
-    font-family: "Rockwell";
+    font-family: "Roboto";
+    font-weight: bold;
     font-size: 2.2rem;
     margin: 0 auto;
     color: white;
@@ -167,4 +228,58 @@
 #Content-Width{
     width: auto;
     margin: 0 auto;
+}
+
+.Contact-Box{
+    width: 80.1%;
+    margin-top: 3.7rem;
+}
+
+.Contact-Box > p{
+    margin-bottom: 1.5rem;
+    margin-top: 0px;
+    font-size: 2.4rem;
+    font-family: "Arial";
+    color: white;
+    font-weight: bold;
+}
+
+.Contact-Item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.6rem;
+}
+
+.Contact-Item > p{
+    width: calc(100% - 41.4%);
+    color: white;
+    font-family: "Roboto-Regular";
+    font-size: 1.9rem;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.Copy-Item{
+    display: flex;
+    align-items: center;
+    width: 41.4%;
+    height: 3.2rem;
+    margin-left: 1.7rem;
+    background-color: #292929;
+    border-radius: 8px;
+}
+
+.Copy-Item > div{
+    margin-left: 1.7rem;
+    font-size: 1.7rem;
+    font-family: "Arial";
+    overflow:hidden;
+    width: calc(100% - 4.5rem);
+    text-overflow: ellipsis;
+    color: white;
+}
+
+.Copy-Item > img{
+    margin-left: 2.5rem;
+    width: 2rem;
 }

@@ -46,11 +46,44 @@ function CookieDetail(){
             </div>
             <div className='Download-Contact'>
                 <div className='Download'>
-
+                    <div className='Download-Box'>
+                        <div className='Download-Title'>
+                            <img src='/img/download.svg'/>
+                            <p>Download for free</p>
+                        </div>
+                        <div className='Download-Divider'/>
+                        <div className='Download-Area'>
+                            <p>character</p>
+                            <img src='/img/download.svg'/>
+                        </div>
+                        <div className='Download-Area'>
+                            <p>character(vector)</p>
+                            <img src='/img/download.svg'/>
+                        </div>
+                    </div>
                 </div>
 
                 <div className='Contact-Address'>
+                    <div className='Contact-Box'>
+                        <p>Contract Address</p>
+                        <div className='Contact-Divider'/>
+                        <div className='Contact-Item'>
+                            <p>MustHoon</p>
+                            <div className='Copy-Item'>
+                                <div>0xfsdfadsfasd</div>
+                                <img src='/img/copy.svg'/>
+                            </div>
+                        </div>
 
+                        <div className='Contact-Item'>
+                            <p>MustHoon</p>
+                            <div className='Copy-Item'>
+                                <div>0xfsdfadsfasd</div>
+                                <img src='/img/copy.svg'/>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
