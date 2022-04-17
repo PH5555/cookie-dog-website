@@ -9,10 +9,8 @@ function Header(){
                 <Link to="/" className='Cookies-Link'><p id='Home' className='Menu-Item'>HOME</p></Link>
                 <Link to="/prologue" className='Cookies-Link'><p className='Menu-Item'>Prologue</p></Link>
                 <Link to="/allCookies" className='Cookies-Link'><p className='Menu-Item'>ALL COOKIES</p></Link>
-                {/* <Link to='/cookieDogTeam' className='Cookies-Link'><p className='Menu-Item'>CookieDog Team</p></Link> */}
-                <Link to='/cookieDetail' className='Cookies-Link'><p className='Menu-Item'>CookieDog Team</p></Link>
-
-                <p className='Menu-Item'>Opensea</p>
+                <Link to='/cookieDogTeam' className='Cookies-Link'><p className='Menu-Item'>CookieDog Team</p></Link>
+                <Link to='/cookieDetail' className='Cookies-Link'><p className='Menu-Item'>Opensea</p></Link>
               </div>
               <div className='Connect-Wallet-Button'>connect wallet</div>
             </div>
