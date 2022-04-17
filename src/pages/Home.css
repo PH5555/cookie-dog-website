@@ -56,14 +56,18 @@
   .Top-Area{
     min-width: 120rem;
     height: auto;
-    background-color: #f4f3e9;
   }
   
   .Main-Box{
     margin-left: 13.802vw;
     padding-top: 9.4rem;
     position: relative;
-    height: 80rem;
+    height: 70rem;
+  }
+
+  video{
+    width: 100%;
+    position: absolute;
   }
   
   .Main-Title{
@@ -72,6 +76,7 @@
     margin-right: max(13.4895vw, 16.1rem);
     margin-left: 1rem;
     white-space: nowrap;
+    color: white;
   }
   
   .Title-Box{
@@ -80,7 +85,6 @@
     display: flex;
     position: absolute;
     height: auto;
-    
   }
   
   .Main-Image{

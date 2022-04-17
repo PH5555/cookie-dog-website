@@ -5,7 +5,7 @@ function Home(){
     return (
         <div className="Home">
           <div className='Top-Area'>
-            
+            <video src='/video/mainVideo.mp4' muted autoPlay loop/>
             <div className='Main-Box'>
               <div className='Title-Box'>
                 <p className='Main-Title'>GET YOUR OWN MUSIC in COOKIES</p>
