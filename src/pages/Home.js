@@ -7,10 +7,8 @@ function Home(){
           <div className='Top-Area'>
             <video src='/video/mainVideo.mp4' muted autoPlay loop/>
             <div className='Main-Box'>
-              <div className='Title-Box'>
-                <p className='Main-Title'>GET YOUR OWN MUSIC in COOKIES</p>
-                <img className="Main-Image"  src="img/planet.png" />
-              </div>
+              <p className='Main-Title'>GET YOUR OWN MUSIC in COOKIES</p>
+              <div className='Box-With-Shadow'>
               <div className='Mint-Box'>
                 <img className='NFT-Image' src='img/sample.png'></img>
                 <div className='NFT-Box'>
@@ -25,12 +23,17 @@ function Home(){
                   </div>
                 </div>
               </div>
+              <div className='Shadow'>
+
+              </div>
+              </div>
+              
             </div>
           </div>
     
           <div className='View-Cookies-Area'>
             <div className='Cookies'>
-              <div className='Cookies-Title'>ALL COOKIES</div>
+              <div className='Cookies-Area-Title'>ALL COOKIES</div>
               <div className='Cookies-List'>
                 <CookieCard/>
                 <CookieCard/>

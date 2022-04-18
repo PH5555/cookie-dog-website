@@ -54,20 +54,23 @@
   }
   
   .Top-Area{
+    height: max(52.083vw, 66.7rem);
     min-width: 120rem;
-    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .Main-Box{
-    margin-left: 13.802vw;
+    position: absolute;
     padding-top: 9.4rem;
-    position: relative;
-    height: 70rem;
+    height: max(52.083vw, 66.7rem);
   }
 
   video{
     width: 100%;
     position: absolute;
+    min-width: 128rem;
   }
   
   .Main-Title{
@@ -75,8 +78,13 @@
     font-family: "Arial-black";
     margin-right: max(13.4895vw, 16.1rem);
     margin-left: 1rem;
+    margin-bottom: 1.5rem;
     white-space: nowrap;
     color: white;
+  }
+
+  .Box-With-Shadow{
+    position: relative;
   }
   
   .Title-Box{
@@ -90,24 +98,33 @@
   .Main-Image{
     width: max(20.98vw, 251px);
   }
+
+  .Shadow{
+    border-radius: 20px;
+    position: absolute;
+    width: 62.3958vw;
+    height: 27.1678vw;
+    margin-left: 3.5rem;
+    margin-top: 3.5rem;
+    background-color: #f1fd7f;
+  }
   
   .Mint-Box{
+    z-index: 1;
     min-width: 76.2rem;
-    width: 72.3958vw;
+    width: 62.3958vw;
     background-color: white;
     position: absolute;
     display: flex;
-    margin-top: 11.3rem;
     margin-bottom: 11.1rem;
     border-radius: 20px;
-    opacity: 0.96;
     float: left;
   }
   
   .NFT-Image{
-    margin-top: 4.5%;
-    margin-left: 4.5%;
-    margin-bottom: 4.5%;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
     width: 37.1%;
     float: left;
     border-radius: 20px;
@@ -137,7 +154,7 @@
   }
   
   .Date-And-Button{
-    margin-top: 19.3%;
+    margin-top: 15.3%;
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -173,11 +190,11 @@
     min-width: 120rem;
   }
   
-  .Cookies-Title{
+  .Cookies-Area-Title{
     font-family: "DaysOne";
     font-size: 5rem;
     margin-left: 13.1vw;
-    margin-top: 104px;
+    margin-top: 12rem;
   }
   
   .Cookies-List{

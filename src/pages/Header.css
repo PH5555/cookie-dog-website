@@ -28,7 +28,7 @@
     min-width: 1125px;
     align-items: center;
     display: flex;
-    height: 4.6rem;
+    height: 6.6rem;
     width: 100%;
     top: 0;
     left: 0;
@@ -38,7 +38,7 @@
   
   .Logo{
     margin-left: 6rem;
-    height: 4.6rem;
+    height: 6.6rem;
   }
   
   .Menu{
@@ -57,11 +57,22 @@
     color: black;
   }
 
+  .Cookies-Link > div{
+    background-color: #8282822E;
+    border-radius: 5px;
+    margin-right: 1.8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+  }
+
   .Menu-Item{
     font-size: 1.4rem;
-    margin-right: 5.5rem;
     font-weight: 500;
     font-family: "Heebo";
+    margin-bottom: 0px;
+    margin-top: 0px;
     color: white;
   }
   
