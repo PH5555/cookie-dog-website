@@ -119,6 +119,8 @@
     margin-bottom: 11.1rem;
     border-radius: 20px;
     float: left;
+    box-shadow: 3.0rem 3.0rem 0rem 0rem #f1fd7f;
+
   }
   
   .NFT-Image{
@@ -186,7 +188,8 @@
     font-family: "Roboto";
   }
   
-  .View-Cookies-Area{
+  .View-Cookies-Home-Area{
+    background-color: white;
     min-width: 120rem;
   }
   

@@ -5,12 +5,12 @@ import AllCookies from './pages/AllCookies';
 import CookieDogTeam from './pages/CookieDogTeam'
 import Prologue from './pages/Prologue';
 import CookieDetail from './pages/CookieDetail';
-import {BrowserRouter, Route, Routes } from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 function App() {
   return(
     <div className='App'> 
-      <BrowserRouter>
+      <Router>
         <Header/>
         <Routes> 
           <Route path="/" element={<Home />}></Route> 
@@ -20,7 +20,7 @@ function App() {
           <Route path="/cookieDetail/*" element={<CookieDetail />}></Route>
 
         </Routes>
-      </BrowserRouter>
+      </Router>
     </div>
   )
 }

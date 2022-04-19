@@ -9,7 +9,7 @@
     background-color: white;
     margin-right: max(5.10416vw, 6.3rem);
     margin-bottom: 6.9rem;
-    box-shadow: 0.2rem 1.1rem 1.5rem 0rem;
+    box-shadow: 0.2rem 1.1rem 1.5rem 0rem #00000059;
 }
 
 .Profile-Img{

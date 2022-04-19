@@ -1,10 +1,11 @@
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import './CookieCard.css'
 
 function CookieCard(){
+    const navigate = useNavigate();
     return(
-       <Link to={'/cookieDetail'}>
-            <div className='Cookie-Card'>
+      
+            <div className='Cookie-Card' onClick={() => navigate('/cookieDetail')}>
             <img className='Cookie-Image' src="img/sample.png"></img>
                 <div className='Cookie-Description-And-Play-Button'>
                     <div className='Cookie-Description'>
@@ -16,7 +17,7 @@ function CookieCard(){
             <p className='Cookie-Situation'>0/20</p>
             <div className='Connect-Link'>view on opensea</div>
             </div>
-        </Link>
+    
     )
 }
 

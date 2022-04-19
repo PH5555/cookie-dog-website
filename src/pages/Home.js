@@ -23,15 +23,12 @@ function Home(){
                   </div>
                 </div>
               </div>
-              <div className='Shadow'>
-
-              </div>
               </div>
               
             </div>
           </div>
     
-          <div className='View-Cookies-Area'>
+          <div className='View-Cookies-Home-Area'>
             <div className='Cookies'>
               <div className='Cookies-Area-Title'>ALL COOKIES</div>
               <div className='Cookies-List'>

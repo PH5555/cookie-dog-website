@@ -1,12 +1,13 @@
-.View-Cookies-Area{
+  .View-Cookies-Area{
     min-width: 120rem;
+    background-color: #f3f4f6;
   }
   
   .Cookies-Title{
     font-family: "DaysOne";
     font-size: 5rem;
     margin-left: 13.1vw;
-    margin-top: 104px;
+    padding-top: 104px;
   }
   
   .Cookies-List{

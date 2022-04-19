@@ -22,7 +22,7 @@ function CookieDetail(){
                         <div className='Cookie-Available'>
                             <div>
                                 <p>Available</p>
-                                <p className='Available-Current'>0 / 50</p>
+                                <p id='Available-Current'>0 / 50</p>
                             </div>
                             
                         </div>

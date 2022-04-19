@@ -57,6 +57,15 @@
     color: black;
   }
 
+  .Menu-Item{
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: "Heebo";
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: white;
+  }
+
   .Cookies-Link > div{
     background-color: #8282822E;
     border-radius: 5px;
@@ -65,15 +74,6 @@
     padding-right: 2rem;
     padding-top: 0.2rem;
     padding-bottom: 0.2rem;
-  }
-
-  .Menu-Item{
-    font-size: 1.4rem;
-    font-weight: 500;
-    font-family: "Heebo";
-    margin-bottom: 0px;
-    margin-top: 0px;
-    color: white;
   }
   
   .Connect-Wallet-Button{
