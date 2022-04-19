@@ -5,9 +5,9 @@
   
   .Cookies-Title{
     font-family: "DaysOne";
-    font-size: 5rem;
+    font-size: 4rem;
     margin-left: 13.1vw;
-    padding-top: 104px;
+    padding-top: 15rem;
   }
   
   .Cookies-List{
@@ -15,5 +15,5 @@
     margin-left: 13.1vw;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 58px;
+    margin-top: 4.5rem;
   }

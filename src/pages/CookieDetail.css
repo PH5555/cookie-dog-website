@@ -17,7 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    border-radius: 8px;
 }
 
 .View{
@@ -41,7 +41,7 @@
 
 .View-Opensea > p{
     font-family: "Arial";
-    font-weight: bold;
+
     font-size: 2.2rem;
     padding-left: 3.7rem;
     padding-right: 1.2rem;
@@ -65,6 +65,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 8px;
 }
 
 .Download-Box{
@@ -85,13 +86,13 @@
 
 .Download-Divider{
     width: 100%;
-    border: 0.5px solid #c4c4c4;
+    border: 0.2px solid #7f7f7f;
     margin-bottom: 4rem;
 }
 
 .Contact-Divider{
     width: 100%;
-    border: 0.5px solid #c4c4c4;
+    border: 0.2px solid #7f7f7f;
     margin-bottom: 2.8rem;
 }
 
@@ -133,6 +134,8 @@
     width: max(23.385vw, 32.9rem);
     height: max(calc((25.260vw + 11.4rem) / 2), 23.5rem);
     background-color: #181818;
+    border-radius: 8px;
+
 }
 
 .Description-Play{
@@ -197,7 +200,9 @@
     width: 100%;
     height: max(calc(22.3958vw - 3.3rem), 25.7rem);
     margin-top: 5.7rem;
-    border: 0.5px solid #8b8b8b;
+    border: 0.2px solid #8b8b8b;
+    border-radius: 6px;
+
 }
 
 .Description-Title{
@@ -216,6 +221,16 @@
     font-weight: normal;
     line-height: 2.81rem;
     color: white;
+}
+
+.View-Opensea > div{
+    width: calc(100% - 26.3rem);
+    display: flex;
+    justify-content: end;
+}
+
+#arrow{
+    width: 2rem;
 }
 
 .Description-Detail > div{

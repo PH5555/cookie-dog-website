@@ -12,7 +12,7 @@ function CookieCard(){
                       <p className='Cookie-Number'>#032</p>
                       <p className='Cookie-Artist'>/Dr. Ahn</p>
                     </div>
-                    <img className='Play-Button' src='img/button.png'></img>
+                    <img className='Play-Button' src='img/music_play.svg'></img>
                 </div>
             <p className='Cookie-Situation'>0/20</p>
             <div className='Connect-Link'>view on opensea</div>

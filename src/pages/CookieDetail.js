@@ -9,11 +9,14 @@ function CookieDetail(){
                     <div className='View-Opensea'>
                         <p>view on opensea</p> 
                         <img src='/img/opensea_icon.svg'/>
+                        <div>
+                            <img id='arrow' src='/img/arrow_right.svg'/>
+                        </div>
                     </div>
                 </div>
                 <div className='Description-Play'>
                     <div className='Play-Music'>
-                        <img src='/img/button.png' />
+                        <img src='/img/music_play.svg' />
                         <div>
                             <p className='Cookie-Detail-Name'>Generate</p>
                             <p className='Cookie-Detail-Creator'>/MuteHoon</p>
