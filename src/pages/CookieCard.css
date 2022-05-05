@@ -1,5 +1,4 @@
 .Cookie-Card{
-    cursor: pointer;
     width: max(22.7vw, 24.5rem);
     height: auto;
     border-radius: 18px;
@@ -10,6 +9,7 @@
   }
   
   .Cookie-Image{
+    cursor: pointer;
     display: inline-block;
     margin-top: 2rem;
     width: 88.3%;
@@ -27,6 +27,7 @@
   }
   
   .Cookie-Number{
+    cursor: pointer;
     font-family: "Rockwell";
     font-size: max(2.08vw, 2.24rem);
     color: white;
@@ -55,8 +56,13 @@
     width: max(4.6vw, 5rem);
     margin-right: 2.3rem;
   }
+
+  a{
+    text-decoration: none;
+  }
   
   .Connect-Link{
+    text-decoration: none;
     line-height: max(3.792vw, 4.1rem);
     width: 100%;
     height: max(3.792vw, 4.1rem);
@@ -66,4 +72,5 @@
     margin-top: 14px;
     color: white;
     font-size: max(1.354vw, 1.459rem);
+    font-family: "Arial";
   }

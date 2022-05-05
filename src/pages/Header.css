@@ -28,7 +28,7 @@
     min-width: 1125px;
     align-items: center;
     display: flex;
-    height: 6.6rem;
+    height: 5rem;
     width: 100%;
     top: 0;
     left: 0;
@@ -38,7 +38,7 @@
   
   .Logo{
     margin-left: 6rem;
-    height: 6.6rem;
+    height: 5rem;
   }
   
   .Menu{
@@ -87,4 +87,8 @@
     text-align: center;
     border-radius: 14px;
     font-size: 1.5rem;
+  }
+
+  a{
+    text-decoration: none;
   }

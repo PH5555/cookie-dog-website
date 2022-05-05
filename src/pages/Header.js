@@ -21,7 +21,7 @@ function Header(){
                 <Link to="/prologue" className='Cookies-Link'><div><p className='Menu-Item' >Prologue</p></div></Link>
                 <Link to="/allCookies" className='Cookies-Link'><div><p className='Menu-Item'>ALL COOKIES</p></div></Link>
                 <Link to='/cookieDogTeam' className='Cookies-Link'><div><p className='Menu-Item'>CookieDog Team</p></div></Link>
-                <Link to='/'className='Cookies-Link'><div><p className='Menu-Item'>Opensea</p></div></Link>
+                <a href='https://opensea.io/' className='Cookies-Link' ><div><p className='Menu-Item'>Opensea</p></div></a>
               </div>
               <div className='Connect-Wallet-Button'>connect wallet</div>
             </div>
