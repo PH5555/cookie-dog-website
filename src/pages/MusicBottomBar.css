@@ -1,0 +1,67 @@
+.Bottom-Music-Bar{
+    z-index: 2;
+    min-width: 1125px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 8rem;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    background-color: #292929;
+    opacity: 0.9;
+}
+
+.Bottom-Music-Bar > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Music-Image{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 0.5rem;
+    background-color: #ffe1cf;
+    margin-right: 2.1rem;
+}
+
+.Music-Title{
+    font-family: "Arial";
+    font-size: 2rem;
+    color: white;
+    margin: 0 auto;
+}
+
+.Music-Content{
+    font-size: 1rem;
+    font-family: "Arial";
+    color: #cacaca;
+    margin: 0 auto;
+}
+
+.Music-Info{
+    margin-right: 5.6rem;
+}
+
+.Button{
+    width: 4.2rem;
+    height: 4.2rem;
+    background-color: white;
+    margin-right: 6rem;
+}
+
+.Progress-Bar{
+    width: 42.396vw;
+    height: 0.5rem;
+    border-radius: 0.9rem;
+    margin-right: 2.2rem;
+    background-color: #6a6a6a;
+}
+
+.Progress{
+    color: white;
+    font-size: 1.4rem;
+    font-family: "Arial";
+}

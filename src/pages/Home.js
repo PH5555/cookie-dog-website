@@ -1,7 +1,8 @@
 import './Home.css';
 import CookieCard from './CookieCard';
 
-function Home(){
+function Home(props){
+    const { open } = props;
     return (
         <div className="Home">
           <div className='Top-Area'>
@@ -32,10 +33,10 @@ function Home(){
             <div className='Cookies'>
               <div className='Cookies-Area-Title'>ALL COOKIES</div>
               <div className='Cookies-List'>
-                <CookieCard/>
-                <CookieCard/>
-                <CookieCard/>
-                <CookieCard/>
+                <CookieCard open={open}/>
+                <CookieCard open={open}/>
+                <CookieCard open={open}/>
+                <CookieCard open={open}/>
             </div>
             <div className='Show-More-Button'>
                 <div className='Show-More-Cookies'>Show More</div>
