@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    height: 8rem;
+    height: 6rem;
     width: 100%;
     bottom: 0;
     left: 0;
@@ -20,8 +20,8 @@
 }
 
 .Music-Image{
-    width: 6rem;
-    height: 6rem;
+    width: 4rem;
+    height: 4rem;
     border-radius: 0.5rem;
     background-color: #ffe1cf;
     margin-right: 2.1rem;
@@ -29,13 +29,13 @@
 
 .Music-Title{
     font-family: "Arial";
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: white;
     margin: 0 auto;
 }
 
 .Music-Content{
-    font-size: 1rem;
+    font-size: 0.6rem;
     font-family: "Arial";
     color: #cacaca;
     margin: 0 auto;
@@ -62,6 +62,6 @@
 
 .Progress{
     color: white;
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-family: "Arial";
 }

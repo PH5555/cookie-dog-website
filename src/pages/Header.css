@@ -44,7 +44,7 @@
   .Menu{
     display: flex;
     justify-content: flex-end;
-    width: calc(100% - 47.7rem);
+    width: calc(100% - 30rem);
   }
   
   #Home{
@@ -66,14 +66,12 @@
     color: white;
   }
 
-  .Cookies-Link > div{
-    background-color: #8282822E;
-    border-radius: 5px;
-    margin-right: 1.8rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 0.2rem;
-    padding-bottom: 0.2rem;
+  .Header-Icon{
+    width: 1.4rem;
+  }
+
+  .Sized-Box{
+    width: 1rem;
   }
   
   .Connect-Wallet-Button{
@@ -83,7 +81,7 @@
     background-color: red;
     color: white;
     font-weight:bold;
-    margin-right: 6.5rem;
+    margin-right: 6rem;
     text-align: center;
     border-radius: 14px;
     font-size: 1.5rem;

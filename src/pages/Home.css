@@ -52,6 +52,10 @@
     font-family: "Klee-semibold";       
     src: url("./fonts/KleeOne-SemiBold.ttf"); 
   }
+
+  p{
+    color: white;
+  }
   
   .Top-Area{
     height: max(52.083vw, 66.7rem);
@@ -189,7 +193,7 @@
   }
   
   .View-Cookies-Home-Area{
-    background-color: white;
+    background-color: #FFF7D7;
     min-width: 120rem;
   }
   
@@ -197,7 +201,7 @@
     font-family: "DaysOne";
     font-size: 4rem;
     margin-left: 13.1vw;
-    margin-top: 12rem;
+    padding-top: 12rem;
   }
   
   .Cookies-List{
@@ -231,9 +235,35 @@
   .Project-Description{
     height: 1000px;
     min-width: 120rem;
-    background-color: #c64045;
+    background-color: #010225;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  
+
+  .Main-Description-Title > p{
+    font-size: 7rem;
+    margin: auto 0;
+  }
+
+  .Main-Description-Contents{
+    margin-top: 4.8rem;
+    width: 35%;
+  }
+
+  .Main-Description-Contents > p{
+    font-size: 2rem;
+  }
+
+  .Main-Description-Image{
+    width: 50%;
+  }
+
+  .Project-Description > div{
+    display: flex;
+    
+  }
+
   .Bottom-Bar{
     min-width: 120rem;
     background-color: black;

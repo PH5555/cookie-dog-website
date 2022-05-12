@@ -42,7 +42,23 @@ function Home(props){
                 <div className='Show-More-Cookies'>Show More</div>
               </div>
           </div>
-          <div className='Project-Description'></div>
+          <div className='Project-Description'>
+            <div>
+              <div className='Main-Description-1'>
+                <div className='Main-Description-Title'>
+                  <p>WHAT IS</p>
+                  <p>COOKIEDOG?</p>
+                </div>
+                <div className='Main-Description-Contents'>
+                  <p>Cookiedog is a new generation of pop culture community that live on the blockchain. They are fully interactive and evolve over time unlocking new capabilities, games, and experiences – and because they're NFTs, they're truly 100% yours.</p>
+                </div>
+              </div>
+              <img className='Main-Description-Image' src='img/main_image_1.png'/>
+              
+            </div>
+            <div></div>
+            <div></div>
+          </div>
           <div className='Bottom-Bar'>
             <div className='Info'>
               <img className='White-Logo' src='img/logo-white.png'></img>
