@@ -44,9 +44,9 @@ function Home(props){
           </div>
           <div className='Project-Description'>
             <div>
-              <div className='Main-Description-1'>
+              <div>
                 <div className='Main-Description-Title'>
-                  <p>WHAT IS</p>
+                  <p id='Title-What-Is'>WHAT IS</p>
                   <p>COOKIEDOG?</p>
                 </div>
                 <div className='Main-Description-Contents'>
@@ -54,10 +54,29 @@ function Home(props){
                 </div>
               </div>
               <img className='Main-Description-Image' src='img/main_image_1.png'/>
-              
             </div>
-            <div></div>
-            <div></div>
+            <div className='Main-Description-2'>
+              <img className='Main-Description-Image' src='img/main_image_2.png'/>
+              <div>
+                <div className='Main-Description-Title'>
+                  <p>COOKIEDOG</p>
+                </div>
+                <div className='Main-Description-Contents'>
+                  <p>Personalize your Cryptos with exclusive accessories and clothing to make your pfp more unique. Each item is an NFT you can buy, sell, and trade with others in the Cooniverse.</p>
+                </div>
+              </div>
+            </div>
+            <div className='Main-Description-3'>
+              <div>
+                <div className='Main-Description-Title'>
+                  <p>Take the heart Candy</p>
+                </div>
+                <div className='Main-Description-Contents'>
+                  <p>If you take heart candy, you can access cookiedog universe. You can create you can be architect for coasis. just take the heart candy and join our membership.</p>
+                </div>
+              </div>
+              <img className='Main-Description-Image' src='img/main_image_3.png'/>
+            </div>
           </div>
           <div className='Bottom-Bar'>
             <div className='Info'>

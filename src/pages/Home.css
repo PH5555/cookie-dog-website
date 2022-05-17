@@ -233,12 +233,26 @@
   }
   
   .Project-Description{
-    height: 1000px;
+    height: 2500px;
     min-width: 120rem;
     background-color: #010225;
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .Main-Description-3{
+    margin-top: 27rem;
+  }
+
+  .Project-Description > div{
+    width: 86%;
+    display: flex;
+    align-items: center;
+  }
+
+  #Title-What-Is{
+    font-size: 6rem;
   }
 
   .Main-Description-Title > p{
@@ -247,21 +261,21 @@
   }
 
   .Main-Description-Contents{
-    margin-top: 4.8rem;
-    width: 35%;
+    margin-top: 3.8rem;
+    
   }
 
   .Main-Description-Contents > p{
     font-size: 2rem;
+    line-height: 34.7pt;
   }
 
   .Main-Description-Image{
-    width: 50%;
+    width: 55%;
   }
 
-  .Project-Description > div{
-    display: flex;
-    
+  .Main-Description-2{
+    margin-top: 25.9rem;
   }
 
   .Bottom-Bar{
