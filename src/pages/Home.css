@@ -52,29 +52,39 @@
     font-family: "Klee-semibold";       
     src: url("./fonts/KleeOne-SemiBold.ttf"); 
   }
-
-  p{
-    color: white;
-  }
   
   .Top-Area{
-    height: max(52.083vw, 66.7rem);
-    min-width: 120rem;
+    height: max(53.628vw, 68.6rem);
+    min-width: 128rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    outline: none;
+    border: none;
   }
   
   .Main-Box{
     position: absolute;
     padding-top: 9.4rem;
     height: max(52.083vw, 66.7rem);
+    outline: none;
+    border: none;
+  }
+
+  .Main-Title-Box{
+    width: max(56vw, 56.6rem);
   }
 
   video{
     width: 100%;
     position: absolute;
     min-width: 128rem;
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    border-image-width: 0px;
+    overflow: hidden;
   }
   
   .Main-Title{
@@ -191,10 +201,18 @@
     margin-top: 1.2rem;
     font-family: "Roboto";
   }
+
+  .Cookies{
+    outline: none;
+    border: none;
+  }
   
   .View-Cookies-Home-Area{
     background-color: #FFF7D7;
-    min-width: 120rem;
+    min-width: 128rem;
+    position: relative;
+    border: none;
+    outline: none;
   }
   
   .Cookies-Area-Title{
@@ -203,6 +221,8 @@
     margin-left: 13.1vw;
     padding-top: 12rem;
   }
+
+  
   
   .Cookies-List{
     height: auto;
@@ -234,30 +254,48 @@
   
   .Project-Description{
     height: 2500px;
-    min-width: 120rem;
+    min-width: 128rem;
     background-color: #010225;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .Main-Description-3{
-    margin-top: 27rem;
+  .Flow-Image{
+    position: absolute;
+    width: 100%;
+    min-width: 128rem;
+    border: none;
+    outline: none;
   }
 
-  .Project-Description > div{
+  *:focus {
+    outline: none;
+  }
+
+  .Main-Description-3{
+    margin-top: 27rem;
+    display: flex;
+    
+  }
+
+  .Main-Description-1{
     width: 86%;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
   }
 
   #Title-What-Is{
     font-size: 6rem;
+    color: white;
+    font-family: 'Arial';
   }
 
   .Main-Description-Title > p{
     font-size: 7rem;
     margin: auto 0;
+    color: white;
+    font-family: 'Arial';
   }
 
   .Main-Description-Contents{
@@ -267,19 +305,31 @@
 
   .Main-Description-Contents > p{
     font-size: 2rem;
-    line-height: 34.7pt;
+    line-height: 30.7pt;
+    color: white;
+    font-family: 'Arial';
   }
 
-  .Main-Description-Image{
-    width: 55%;
+  .Main-Description-Image-1{
+    width: 60%;
+  }
+  
+  .Main-Description-Image-2{
+    width: 40%;
+  }
+
+  .Main-Description-Image-3{
+    width: 60%;
   }
 
   .Main-Description-2{
     margin-top: 25.9rem;
+    display: flex;
+    align-items: center;
   }
 
   .Bottom-Bar{
-    min-width: 120rem;
+    min-width: 128rem;
     background-color: black;
   }
   

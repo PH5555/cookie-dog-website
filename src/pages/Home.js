@@ -8,7 +8,7 @@ function Home(props){
           <div className='Top-Area'>
             <video src='/video/mainVideo.mp4' muted autoPlay loop/>
             <div className='Main-Box'>
-              <p className='Main-Title'>GET YOUR OWN MUSIC in COOKIES</p>
+              <div className='Main-Title-Box'><p className='Main-Title'>GET YOUR OWN COOKIES</p></div>
               <div className='Box-With-Shadow'>
               <div className='Mint-Box'>
                 <img className='NFT-Image' src='img/sample.png'></img>
@@ -30,6 +30,7 @@ function Home(props){
           </div>
     
           <div className='View-Cookies-Home-Area'>
+            <img src='img/flow.png' className='Flow-Image'/>
             <div className='Cookies'>
               <div className='Cookies-Area-Title'>ALL COOKIES</div>
               <div className='Cookies-List'>
@@ -43,7 +44,7 @@ function Home(props){
               </div>
           </div>
           <div className='Project-Description'>
-            <div>
+            <div className='Main-Description-1'>
               <div>
                 <div className='Main-Description-Title'>
                   <p id='Title-What-Is'>WHAT IS</p>
@@ -53,16 +54,16 @@ function Home(props){
                   <p>Cookiedog is a new generation of pop culture community that live on the blockchain. They are fully interactive and evolve over time unlocking new capabilities, games, and experiences – and because they're NFTs, they're truly 100% yours.</p>
                 </div>
               </div>
-              <img className='Main-Description-Image' src='img/main_image_1.png'/>
+              <img className='Main-Description-Image-1' src='img/main_image_1.png'/>
             </div>
             <div className='Main-Description-2'>
-              <img className='Main-Description-Image' src='img/main_image_2.png'/>
+              <img className='Main-Description-Image-2' src='img/main_image_2.png'/>
               <div>
                 <div className='Main-Description-Title'>
-                  <p>COOKIEDOG</p>
+                  <p>WE SELL COOKIES</p>
                 </div>
                 <div className='Main-Description-Contents'>
-                  <p>Personalize your Cryptos with exclusive accessories and clothing to make your pfp more unique. Each item is an NFT you can buy, sell, and trade with others in the Cooniverse.</p>
+                  <p>Cookie can be music, video, . all of contents we consume and make our lives happy.<br></br><br></br>Every seoson you can buy limited version of cookies nft of<br></br>cookiedog. and enjoy make expansion of piece of contents.<br></br>I will be exciting and thriiled.<br></br>build and expand all pieces of contents</p>
                 </div>
               </div>
             </div>
@@ -75,7 +76,7 @@ function Home(props){
                   <p>If you take heart candy, you can access cookiedog universe. You can create you can be architect for coasis. just take the heart candy and join our membership.</p>
                 </div>
               </div>
-              <img className='Main-Description-Image' src='img/main_image_3.png'/>
+              <img className='Main-Description-Image-3' src='img/main_image_3.png'/>
             </div>
           </div>
           <div className='Bottom-Bar'>
