@@ -74,6 +74,25 @@ function Home(props){
                 </div>
                 <div className='Main-Description-Contents'>
                   <p>If you take heart candy, you can access cookiedog universe. You can create you can be architect for coasis. just take the heart candy and join our membership.</p>
+                  <div className='Description-Yes'>
+                    <p>Do you have matamask wallet?</p>
+                    <div className='Candyshop-Button'>
+                      <p>go to candyshop</p>
+                    </div>
+                  </div>
+                  <div className='Description-No'>
+                    <p>If you don’t have wallet yet, please put your email and discord id. We will send you the heartcandy, and give you the membership roll</p>
+                    <form><input className='Email-Input' type='text' placeholder='Email address'></input></form>
+                    <div>
+                      <form>
+                        <input className='Discord-Input' type='text' placeholder='discord ID'></input>
+                      </form>
+                      <div className='Send-Button'>
+                        <p>send</p>
+                      </div>
+                    </div>
+                    
+                  </div>
                 </div>
               </div>
               <img className='Main-Description-Image-3' src='img/main_image_3.png'/>

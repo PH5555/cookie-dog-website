@@ -15,7 +15,7 @@ function Header(){
     margin-bottom: 0px;
     margin-top: 0px; 
     color:${textColor};
-    `;
+    `; 
 
     const Box = styled.div`
     background-color: ${divColor};
