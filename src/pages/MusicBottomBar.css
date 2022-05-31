@@ -45,13 +45,6 @@
     margin-right: 5.6rem;
 }
 
-.Button{
-    width: 4.2rem;
-    height: 4.2rem;
-    background-color: white;
-    margin-right: 6rem;
-}
-
 .Progress-Bar{
     width: 42.396vw;
     height: 0.5rem;
@@ -64,4 +57,16 @@
     color: white;
     font-size: 1rem;
     font-family: "Arial";
+    margin-right: 20rem;
+}
+
+.Music-Play-Pause{
+    width: 3.68rem;
+    margin-right: 6rem;
+    cursor: pointer;
+}
+
+.Close-Music{
+    width: 2rem;
+    cursor: pointer;
 }

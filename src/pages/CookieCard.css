@@ -12,12 +12,12 @@
   .Cookie-Image{
     cursor: pointer;
     display: inline-block;
-    margin-top: 2rem;
-    width: 88.3%;
+    margin-top: 4%;
+    width: 92%;
   }
   
   .Cookie-Description-And-Play-Button{
-    margin-top: 2.6rem;
+    margin-top: 1.5rem;
     display: flex;
   }
   
@@ -29,7 +29,7 @@
   
   .Cookie-Number{
     cursor: pointer;
-    font-family: "Rockwell";
+    font-family: "Quantico-Bold";
     font-size: max(2.08vw, 2.24rem);
     color: white;
     margin: 0 auto;
@@ -43,7 +43,7 @@
   }
   
   .Cookie-Situation{
-    font-family: Bruno;
+    font-family: "Quantico-regular";
     margin: 0 auto;
     margin-left: 3.2rem;
     width: 100%;

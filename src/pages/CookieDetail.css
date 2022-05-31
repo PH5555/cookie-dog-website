@@ -9,6 +9,10 @@
     padding-bottom: 20rem;
 }
 
+.Music-Play-Button{
+    cursor: pointer;
+}
+
 .Cookie{
     width: max(59.84vw, 83.5rem);
     padding-bottom: 5rem;
