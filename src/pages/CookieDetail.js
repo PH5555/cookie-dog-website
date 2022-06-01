@@ -7,13 +7,15 @@ function CookieDetail(props) {
       <div className="Cookie">
         <div className="View">
           <img className="Cookie-Detail-Img" src="/img/sample.png" />
-          <div className="View-Opensea">
-            <p>view on opensea</p>
-            <img src="/img/opensea_icon.svg" />
-            <div>
-              <img id="arrow" src="/img/arrow_right.svg" />
+          <a href="https://opensea.io/">
+            <div className="View-Opensea">
+              <p>view on opensea</p>
+              <img src="/img/opensea_icon.svg" />
+              <div>
+                <img id="arrow" src="/img/arrow_right.svg" />
+              </div>
             </div>
-          </div>
+          </a>
         </div>
         <div className="Description-Play">
           <div className="Play-Music">
