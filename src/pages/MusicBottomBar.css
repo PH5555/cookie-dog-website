@@ -46,6 +46,7 @@
 }
 
 .Progress-Bar{
+    position: relative;
     width: 42.396vw;
     height: 0.5rem;
     border-radius: 0.9rem;
@@ -53,7 +54,7 @@
     background-color: #6a6a6a;
 }
 
-.Progress{
+.Time{
     color: white;
     font-size: 1rem;
     font-family: "Arial";

@@ -3,7 +3,13 @@ import "./CookieCard.css";
 
 function CookieCard(props) {
   const navigate = useNavigate();
-  const { open } = props;
+  const { open, setMax } = props;
+
+  const openMusicModal = () => {
+    setMax(300);
+    open();
+  };
+
   return (
     <div className="Cookie-Card">
       <img
@@ -24,7 +30,7 @@ function CookieCard(props) {
         <img
           className="Play-Button"
           src="img/music_play.svg"
-          onClick={open}
+          onClick={openMusicModal}
         ></img>
       </div>
       <p className="Cookie-Situation">0/20</p>

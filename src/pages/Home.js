@@ -2,7 +2,7 @@ import "./Home.css";
 import CookieCard from "./CookieCard";
 
 function Home(props) {
-  const { open } = props;
+  const { open, setMax } = props;
   return (
     <div className="Home">
       <div className="Top-Area">
@@ -33,10 +33,10 @@ function Home(props) {
         <div className="Cookies">
           <div className="Cookies-Area-Title">ALL COOKIES</div>
           <div className="Cookies-List">
-            <CookieCard open={open} />
-            <CookieCard open={open} />
-            <CookieCard open={open} />
-            <CookieCard open={open} />
+            <CookieCard open={open} setMax={setMax} />
+            <CookieCard open={open} setMax={setMax} />
+            <CookieCard open={open} setMax={setMax} />
+            <CookieCard open={open} setMax={setMax} />
           </div>
           <div className="Show-More-Button">
             <div className="Show-More-Cookies">Show More</div>
