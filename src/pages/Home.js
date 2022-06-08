@@ -1,8 +1,14 @@
 import "./Home.css";
 import CookieCard from "./CookieCard";
+import { useScrollFadeIn } from "../hooks/useScrollFadeIn";
 
 function Home(props) {
   const { open, setMax } = props;
+  const animatedItems = [
+    useScrollFadeIn(),
+    useScrollFadeIn(),
+    useScrollFadeIn(),
+  ];
   return (
     <div className="Home">
       <div className="Top-Area">
@@ -61,12 +67,14 @@ function Home(props) {
             </div>
           </div>
           <img
+            {...animatedItems[0]}
             className="Main-Description-Image-1"
             src="img/main_image_1.png"
           />
         </div>
         <div className="Main-Description-2">
           <img
+            {...animatedItems[1]}
             className="Main-Description-Image-2"
             src="img/main_image_2.png"
           />
@@ -132,6 +140,7 @@ function Home(props) {
             </div>
           </div>
           <img
+            {...animatedItems[2]}
             className="Main-Description-Image-3"
             src="img/main_image_3.png"
           />
