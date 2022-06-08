@@ -1,14 +1,34 @@
 import "./Home.css";
+import React, { useState } from "react";
 import CookieCard from "./CookieCard";
 import { useScrollFadeIn } from "../hooks/useScrollFadeIn";
+import $ from "jquery";
 
 function Home(props) {
   const { open, setMax } = props;
+  const [emailInputVavlue, setemailInputVavlue] = useState("");
+  const [discordInputVavlue, setDiscordInputVavlue] = useState("");
+
   const animatedItems = [
     useScrollFadeIn(),
     useScrollFadeIn(),
     useScrollFadeIn(),
   ];
+
+  const createUserData = () => {
+    $.ajax({
+      type: "GET",
+      url: "https://script.google.com/macros/s/AKfycbzfjtm8vFXK6CRmFBoC4_x-bZcFzUD9Tuh-sL9QIoA3DcSQAVdvyumYEYrTs84UaVhndQ/exec",
+      data: {
+        email: emailInputVavlue,
+        discord: discordInputVavlue,
+      },
+      success: function (response) {
+        alert("전송 완료");
+      },
+    });
+  };
+
   return (
     <div className="Home">
       <div className="Top-Area">
@@ -119,6 +139,9 @@ function Home(props) {
                 </p>
                 <form>
                   <input
+                    onChange={(event) =>
+                      setemailInputVavlue(event.target.value)
+                    }
                     className="Email-Input"
                     type="text"
                     placeholder="Email address"
@@ -127,12 +150,15 @@ function Home(props) {
                 <div>
                   <form>
                     <input
+                      onChange={(event) =>
+                        setDiscordInputVavlue(event.target.value)
+                      }
                       className="Discord-Input"
                       type="text"
                       placeholder="discord ID"
                     ></input>
                   </form>
-                  <div className="Send-Button">
+                  <div className="Send-Button" onClick={createUserData}>
                     <p>send</p>
                   </div>
                 </div>
