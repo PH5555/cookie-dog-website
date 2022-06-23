@@ -58,7 +58,6 @@
     color: white;
     font-size: 1rem;
     font-family: "Arial";
-    margin-right: 20rem;
 }
 
 .Music-Play-Pause{
@@ -68,6 +67,8 @@
 }
 
 .Close-Music{
-    width: 2rem;
+    position: absolute;
+    width: 2.5rem;
     cursor: pointer;
+    right: 10rem;
 }

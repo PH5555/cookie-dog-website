@@ -14,20 +14,29 @@ function Header() {
   const HeadText = styled.p`
     font-size: 1.3rem;
     font-weight: 500;
-    font-family: "Heebo";
+    font-family: "AlegreyaSansSc-Medium";
     margin-bottom: 0px;
     margin-top: 0px;
     color: ${textColor};
   `;
 
+  const DisableText = styled.p`
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: "AlegreyaSansSc-Medium";
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: grey;
+  `;
+
   const Box = styled.div`
     background-color: ${divColor};
     border-radius: 5px;
-    margin-right: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 0.2rem;
-    padding-bottom: 0.2rem;
+    margin-right: 0.9rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
   `;
 
   const IconBox = styled.div`
@@ -46,23 +55,30 @@ function Header() {
         <img className="Logo" src="img/logo.png" />
       </Link>
       <div className="Menu">
-        <Link to="/" className="Cookies-Link">
+        <Link to="/prologue" className="Cookies-Link">
           <Box>
-            <p id="Home" className="Menu-Item">
-              HOME
-            </p>
+            <HeadText>Candy Shop</HeadText>
           </Box>
         </Link>
+
+        <Link to="/allCookies" className="Cookies-Link">
+          <Box>
+            <HeadText>All Cookies</HeadText>
+          </Box>
+        </Link>
+
         <Link to="/prologue" className="Cookies-Link">
           <Box>
             <HeadText>Prologue</HeadText>
           </Box>
         </Link>
-        <Link to="/allCookies" className="Cookies-Link">
+
+        <Link to="/cookieDogTeam" className="Cookies-Link">
           <Box>
-            <HeadText>ALL COOKIES</HeadText>
+            <DisableText>Our Songs</DisableText>
           </Box>
         </Link>
+
         <Link to="/cookieDogTeam" className="Cookies-Link">
           <Box>
             <HeadText>CookieDog Team</HeadText>

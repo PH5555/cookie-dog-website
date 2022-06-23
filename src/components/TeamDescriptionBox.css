@@ -1,0 +1,27 @@
+.Profile{
+    margin-left: 1.4rem;
+}
+
+.Profile-Name{
+    font-family: 'Rockwell';
+    font-size: 2.3rem;
+    color: white;
+    margin-top: 1.2rem;
+}
+
+.Team-Box{
+    width: calc((100% - 19.7rem - 15.6rem) / 4);
+    margin-right: 5.2rem;
+    margin-bottom: 4rem;
+}
+
+.Profile-Role{
+    font-size: 1.7rem;
+    color: white;
+    margin-top: 0.6rem;
+}
+
+img{
+    width: 100%;
+    border-radius: 1.1rem;
+}

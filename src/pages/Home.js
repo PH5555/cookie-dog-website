@@ -1,11 +1,13 @@
 import "./Home.css";
+import { useNavigate } from "react-router-dom";
 import React, { useState } from "react";
-import CookieCard from "./CookieCard";
+import CookieCard from "../components/CookieCard";
 import { useScrollFadeIn } from "../hooks/useScrollFadeIn";
 import $ from "jquery";
 
 function Home(props) {
   const { open, setMax } = props;
+  const navigate = useNavigate();
   const [emailInputVavlue, setemailInputVavlue] = useState("");
   const [discordInputVavlue, setDiscordInputVavlue] = useState("");
 
@@ -65,7 +67,12 @@ function Home(props) {
             <CookieCard open={open} setMax={setMax} />
           </div>
           <div className="Show-More-Button">
-            <div className="Show-More-Cookies">Show More</div>
+            <div
+              className="Show-More-Cookies"
+              onClick={() => navigate("/allCookies")}
+            >
+              Show More
+            </div>
           </div>
         </div>
       </div>
