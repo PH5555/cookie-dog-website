@@ -1,0 +1,40 @@
+.Candyshop{
+    background-color: #0f0d2c;
+    min-width: 120rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Candyshop-Title{
+    display: flex;
+    align-items: center;
+    width: calc(100% - 16.8rem - 16.8rem);
+    margin-left: 6.4rem;
+}
+
+.Candyshop-Big-Title{
+    color: white;
+    font-size: 5.5rem;
+    margin: 0;
+
+}
+
+.Candyshop-Small-Title{
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.Candyshop-Image{
+    width: 65.8rem;
+}
+
+.Candy-List{
+    width: calc(100% - 16.8rem - 16.8rem);
+    background-color: #1f1f1f;
+    border-radius: 1.6rem;
+    height: 100rem;
+}

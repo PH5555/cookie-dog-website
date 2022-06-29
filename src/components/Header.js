@@ -55,7 +55,7 @@ function Header() {
         <img className="Logo" src="img/logo.png" />
       </Link>
       <div className="Menu">
-        <Link to="/prologue" className="Cookies-Link">
+        <Link to="/candyShop" className="Cookies-Link">
           <Box>
             <HeadText>Candy Shop</HeadText>
           </Box>
