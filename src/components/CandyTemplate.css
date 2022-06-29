@@ -1,0 +1,15 @@
+.Candy-Image{
+    position: absolute;
+    width: 100%;
+}
+
+.CandyTemplate > div{
+    position: relative;
+    width: 20%;
+    height: auto;
+}
+
+.CandyTemplate > div > p{
+    position: absolute;
+    color: black;
+}

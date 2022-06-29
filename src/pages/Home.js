@@ -56,7 +56,7 @@ function Home(props) {
         </div>
       </div>
 
-      <div className="View-Cookies-Home-Area">
+      {/* <div className="View-Cookies-Home-Area">
         <img src="img/flow.png" className="Flow-Image" />
         <div className="Cookies">
           <div className="Cookies-Area-Title">ALL COOKIES</div>
@@ -75,7 +75,7 @@ function Home(props) {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="Project-Description">
         <div className="Main-Description-1">

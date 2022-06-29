@@ -1,4 +1,5 @@
 import "./CandyShop.css";
+import CandyTemplate from "../components/CandyTemplate";
 
 function CandyShop() {
   return (
@@ -14,7 +15,9 @@ function CandyShop() {
         </div>
         <img className="Candyshop-Image" src="img/candyshop_background.png" />
       </div>
-      <div className="Candy-List"></div>
+      <div className="Candy-List">
+        <CandyTemplate img="img/candy.png"></CandyTemplate>
+      </div>
     </div>
   );
 }
