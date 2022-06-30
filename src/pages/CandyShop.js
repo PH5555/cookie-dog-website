@@ -17,6 +17,24 @@ function CandyShop() {
       </div>
       <div className="Candy-List">
         <CandyTemplate img="img/candy.png"></CandyTemplate>
+        <CandyTemplate img="img/candy.png"></CandyTemplate>
+        <CandyTemplate img="img/candy.png"></CandyTemplate>
+        <CandyTemplate img="img/candy.png"></CandyTemplate>
+        <CandyTemplate img="img/candy.png"></CandyTemplate>
+        <CandyTemplate img="img/candy.png"></CandyTemplate>
+        <CandyTemplate img="img/candy.png"></CandyTemplate>
+        <CandyTemplate img="img/candy.png"></CandyTemplate>
+        <CandyTemplate img="img/candy.png"></CandyTemplate>
+        <CandyTemplate img="img/candy.png"></CandyTemplate>
+        <CandyTemplate img="img/candy.png"></CandyTemplate>
+        <CandyTemplate img="img/candy.png"></CandyTemplate>
+        <CandyTemplate img="img/candy.png"></CandyTemplate>
+        <CandyTemplate img="img/candy.png"></CandyTemplate>
+        <CandyTemplate img="img/candy.png"></CandyTemplate>
+        <CandyTemplate img="img/candy.png"></CandyTemplate>
+        <CandyTemplate img="img/candy.png"></CandyTemplate>
+        <CandyTemplate img="img/candy.png"></CandyTemplate>
+        <CandyTemplate img="img/candy.png"></CandyTemplate>
       </div>
     </div>
   );
