@@ -1,69 +1,72 @@
- .App-Bar{
-    z-index: 2;
-    min-width: 1125px;
-    align-items: center;
-    display: flex;
-    height: 5rem;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    padding-top: 3rem;
-  }
-  
-  .Logo{
-    margin-left: 6rem;
-    height: 5rem;
-    width: 10.5rem;
-  }
-  
-  .Menu{
-    display: flex;
-    justify-content: flex-end;
-    width: calc(100% - 30rem);
-  }
+.App-Bar {
+  z-index: 2;
+  min-width: 1125px;
+  align-items: flex-end;
+  display: flex;
+  height: 5rem;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  background-color: #e8437e;
+}
 
-  .Cookies-Link{
-    box-shadow: none;
-    text-decoration: none;
-    color: black;
-  }
+.Logo {
+  margin-left: 6rem;
+  height: 5rem;
+  width: 10.5rem;
+}
 
-  .Menu-Item{
-    font-size: 1.3rem;
-    font-weight: 500;
-    font-family: "Heebo";
-    margin-bottom: 0px;
-    margin-top: 0px;
-    color: white;
-  }
+.Menu {
+  display: flex;
+  justify-content: flex-end;
+  width: calc(100% - 30rem);
+}
 
-  .Header-Icon{
-    width: 1.5rem;
-  }
+.Cookies-Link {
+  box-shadow: none;
+  text-decoration: none;
+  color: black;
+}
 
-  .Sized-Box{
-    width: 0.2rem;
-  }
+.Menu-Item {
+  font-size: 1.3rem;
+  font-weight: 500;
+  font-family: "Heebo";
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: white;
+}
 
-  #Disable{
-    color: grey;
-  }
-  
-  .Connect-Wallet-Button{
-    width: 20rem;
-    height: 4.5rem;
-    line-height: 4.5rem;
-    background-color: red;
-    color: white;
-    font-weight:bold;
-    margin-right: 6rem;
-    text-align: center;
-    border-radius: 14px;
-    font-size: 1.5rem;
-    margin-left: 2rem;
-  }
+.Header-Icon {
+  width: 1.5rem;
+}
 
-  a{
-    text-decoration: none;
-  }
+.Sized-Box {
+  width: 0.2rem;
+}
+
+#Disable {
+  color: grey;
+}
+
+.Connect-Wallet-Button {
+  width: 20rem;
+  height: 4.5rem;
+  line-height: 4.5rem;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  margin-right: 6rem;
+  text-align: center;
+  border-radius: 14px;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  border: 1pt solid white;
+}
+
+a {
+  text-decoration: none;
+}
