@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import CookieCard from "../components/CookieCard";
 import { useScrollFadeIn } from "../hooks/useScrollFadeIn";
 import $ from "jquery";
+import MintingBox from "../components/MintingBox";
 
 function Home(props) {
   const { open, setMax } = props;
@@ -34,26 +35,8 @@ function Home(props) {
   return (
     <div className="Home">
       <div className="Top-Area">
-        <video src="/video/mainVideo.mp4" muted autoPlay loop />
-        <div className="Main-Box">
-          <div className="Main-Title-Box">
-            <p className="Main-Title">GET YOUR OWN COOKIES</p>
-          </div>
-          <div className="Mint-Box">
-            <img className="NFT-Image" src="img/sample.png"></img>
-            <div className="NFT-Box">
-              <div className="NFT-Content">
-                <p className="NFT-Name">COOKIEDOG Season 1 NFT</p>
-                <p className="NFT-Number">vol. 1000 (50 cookies)</p>
-              </div>
-              <div className="Date-And-Button">
-                <div className="Date">6 April, 12PM EDT</div>
-                <div className="Mint-Button">Mint Now</div>
-                <p className="Current-Situation">20/20</p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <img src="img/background.png" className="Background" />
+        <MintingBox />
       </div>
 
       {/* <div className="View-Cookies-Home-Area">
