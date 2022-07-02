@@ -1,116 +1,122 @@
-.Main-Box{
-    width: 100%;
-    position: absolute;
-    padding-top: 19rem;
-    height: max(52.083vw, 66.7rem);
-    outline: none;
-    border: none;
-    display: flex;
+.Main-Box {
+  width: 100%;
+  position: absolute;
+  padding-top: 19rem;
+  height: max(52.083vw, 66.7rem);
+  outline: none;
+  border: none;
+  display: flex;
 }
 
-.Main-Box > div{
-    width: 100%;
-    height: 100%;
+.Main-Box > div {
+  width: 100%;
+  height: 100%;
 }
 
-.Main-Title-Box{
-    left: 50%;
-    width: 62.3958vw;
-    transform: translate(-50%, 0%);
-    z-index: 1;
-    position: absolute;
+.Main-Title-Box {
+  left: 50%;
+  width: 62.3958vw;
+  transform: translate(-50%, 0%);
+  z-index: 1;
+  position: absolute;
 }
 
-.Main-Title{
-    font-size: 8.5rem;
-    font-family: "Arial-black";
-    margin-left: 1rem;
-    margin-bottom: 0;
-    margin-top: 0;
-    white-space: nowrap;
-    color: #e8437e;
-    text-shadow: 0.6rem 0.7rem 0pt black;
+.Main-Title {
+  font-family: "CoopcerBlackStd";
+  font-size: 8.5rem;
+  margin-left: 1rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  white-space: nowrap;
+  color: #e8437e;
+  text-shadow: 0.6rem 0.7rem 0pt black;
 }
 
-.Mint-Box{
-    left: 50%;
-    transform: translate(-50%, 0%);
-    position: absolute;
-    min-width: 76.2rem;
-    margin-top: 8.9rem;
-    width: 62.3958vw;
-    background-color: black;
-    display: flex;
-    margin-bottom: 11.1rem;
-    border-radius: 20px;
-    float: left;
-    border: 1.2rem solid #e8437e;
-  }
-  
-  .NFT-Image{
-    margin-top: 2.5%;
-    margin-left: 2.5%;
-    margin-bottom: 2.5%;
-    width: 37.1%;
-    float: left;
-    border-radius: 20px;
-    background-color: pink;
-  }
+.Mint-Box {
+  left: 50%;
+  transform: translate(-50%, 0%);
+  position: absolute;
+  min-width: 76.2rem;
+  margin-top: 6.9rem;
+  width: 62.3958vw;
+  background-color: black;
+  display: flex;
+  margin-bottom: 11.1rem;
+  border-radius: 20px;
+  float: left;
+  border: 1.2rem solid #e8437e;
+}
 
-  .NFT-Box{
-    position: relative;
-    width: calc(62.9% - 4.8rem);
-  }
-  
-  .NFT-Number{
-    margin: auto;
-    font-family: "Quantico-Regular";
-    font-size: max(1.05vw, 1.5rem);
-    text-align: center;
-    color: white;
+.NFT-Image {
+  margin-top: 2.5%;
+  margin-left: 2.5%;
+  margin-bottom: 2.5%;
+  width: 37.1%;
+  float: left;
+  border-radius: 20px;
+  background-color: pink;
+}
 
-  }
-  
-  .NFT-Name{
-    font-family: 'Quantico-Bold';
-    margin-top: 6.3rem;
-    font-size: max(2vw, 2.8rem);
-    margin-bottom: 1px;
-    text-align: center;
-    color: white;
-  }
-  
-  .Date-And-Button{
-    margin-top: 15.3%;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .Date{
-    color: white;
-    font-family: 'Quantico-Bold';
-    font-size: max(1.9vw, 2.7rem);
-    margin-bottom: 1.5rem;
-  }
-  
-  .Mint-Button{
-    width: max(13.6458vw, 19.6rem);
-    height: max(2.8vw, 4rem);
-    border-radius: 14px;
-    background-color: #c4c4c4;
-    color: white;
-    text-align: center;
-    line-height: max(2.8vw, 4rem);
-    font-size: max(1.458vw, 2rem);
-    font-weight: bold;
-  }
-  
-  .Current-Situation{
-    color: white;
-    font-size: max(1.3vw, 1.9rem);
-    margin-top: 1.2rem;
-    font-family: "Quantico-Regular";
-  }
+.NFT-Cookies {
+  font-size: 3.7rem;
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+
+.NFT-Box {
+  position: relative;
+  width: calc(62.9% - 4.8rem);
+}
+
+.NFT-Number {
+  margin-top: 0.3rem;
+  font-family: "Quantico-Regular";
+  font-size: max(1.05vw, 1.5rem);
+  text-align: center;
+  color: white;
+}
+
+.NFT-Name {
+  font-family: "Quantico-Bold";
+  margin-top: 6.3rem;
+  font-size: max(2vw, 2.8rem);
+  margin-bottom: 1px;
+  text-align: center;
+  color: white;
+}
+
+.Date-And-Button {
+  margin-top: 15.3%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Date {
+  color: white;
+  font-family: "Quantico-Bold";
+  font-size: max(1.9vw, 2.7rem);
+  margin-bottom: 1.5rem;
+}
+
+.Mint-Button {
+  width: max(13.6458vw, 19.6rem);
+  height: max(2.8vw, 4rem);
+  border-radius: 14px;
+  background-color: #c4c4c4;
+  color: white;
+  text-align: center;
+  line-height: max(2.8vw, 4rem);
+  font-size: max(1.458vw, 2rem);
+  font-weight: bold;
+}
+
+.Current-Situation {
+  color: white;
+  font-size: max(1.3vw, 1.9rem);
+  margin-top: 1.2rem;
+  font-family: "Quantico-Regular";
+}

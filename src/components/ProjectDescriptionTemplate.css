@@ -1,0 +1,168 @@
+.Project-Description {
+  min-width: 128rem;
+  background-color: #010225;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Flow-Image {
+  position: absolute;
+  width: 100%;
+  min-width: 128rem;
+  border: none;
+  outline: none;
+}
+
+.Main-Description-3 {
+  width: 86%;
+  margin-top: 27rem;
+  margin-bottom: 30rem;
+  display: flex;
+  align-items: center;
+}
+
+.Main-Description-1 {
+  margin-top: 15rem;
+  width: 86%;
+  display: flex;
+  align-items: flex-end;
+}
+
+#Title-What-Is {
+  font-size: 6rem;
+  color: white;
+  font-family: "Arial";
+}
+
+.Main-Description-Title > p {
+  font-size: 6rem;
+  margin: auto 0;
+  color: white;
+  font-family: "Arial-black";
+}
+
+.Main-Description-Contents {
+  margin-top: 3.8rem;
+}
+
+.Description-Yes {
+  margin-top: 4.9rem;
+}
+
+.Candyshop-Button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Candyshop-Button > p {
+  font-family: "Arial-black";
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.Description-No {
+  margin-top: 12.6rem;
+}
+
+.Description-No > p {
+  font-family: "Arial";
+  font-size: 2.2rem;
+  color: white;
+  margin-bottom: 3.8rem;
+}
+
+.Email-Input {
+  width: 51.4rem;
+  height: 6rem;
+  border-radius: 8px;
+  font-size: 2.3rem;
+  padding-left: 1.3rem;
+  margin-bottom: 1.9rem;
+}
+
+.Discord-Input {
+  width: 32.7rem;
+  height: 6rem;
+  border-radius: 8px;
+  font-size: 2.3rem;
+  padding-left: 1.3rem;
+  margin-right: 1.7rem;
+}
+
+.Description-No > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Send-Button {
+  background-color: #00b099;
+  width: 17rem;
+  height: 6.6rem;
+  border-radius: 1.4rem;
+  cursor: pointer;
+}
+.Send-Button {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.Send-Button > p {
+  font-family: "Arial-black";
+  font-size: 2.5rem;
+  color: black;
+}
+
+.Candyshop-Button > img {
+  width: 1.2rem;
+}
+
+.Description-Yes > p {
+  font-family: "Arial";
+  font-size: 2.3rem;
+  margin-bottom: 2.1rem;
+  color: white;
+}
+
+.Candyshop-Button {
+  width: 37rem;
+  height: 6.6rem;
+  border-radius: 1.4rem;
+  background-color: #ccff00;
+}
+
+.Main-Description-Contents > p {
+  font-size: 2rem;
+  line-height: 28pt;
+  color: white;
+  font-family: "Quicksand-Medium";
+}
+
+.Main-Description-Image-1 {
+  width: 60%;
+}
+
+.Main-Description-Image-2 {
+  width: 40%;
+  margin-right: 10rem;
+}
+
+.Main-Description-Image-3 {
+  margin-top: 5rem;
+  width: 53vw;
+  height: 53vw;
+}
+
+.Main-Description-3 > div {
+  margin-top: 18rem;
+}
+
+.Main-Description-2 {
+  width: 86%;
+  margin-top: 25.9rem;
+  display: flex;
+  align-items: center;
+}

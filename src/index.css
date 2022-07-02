@@ -1,83 +1,88 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 @font-face {
-  font-family: "Heebo";       
-  src: url("./fonts/Heebo-VariableFont_wght.ttf"); 
+  font-family: "Heebo";
+  src: url("./fonts/Heebo-VariableFont_wght.ttf");
 }
 
 @font-face {
-  font-family: "Rockwell";       
-  src: url("./fonts/Rockwell-Bold.ttf"); 
+  font-family: "Rockwell";
+  src: url("./fonts/Rockwell-Bold.ttf");
 }
 
 @font-face {
-  font-family: "DaysOne";       
-  src: url("./fonts/DaysOne-Regular.ttf"); 
+  font-family: "DaysOne";
+  src: url("./fonts/DaysOne-Regular.ttf");
 }
 
 @font-face {
-  font-family: "Rock";       
-  src: url("./fonts/ROCK.TTF"); 
+  font-family: "Rock";
+  src: url("./fonts/ROCK.TTF");
 }
 
 @font-face {
-  font-family: "Roboto-Medium";       
-  src: url("./fonts/Roboto-Medium.ttf"); 
+  font-family: "Roboto-Medium";
+  src: url("./fonts/Roboto-Medium.ttf");
 }
 
 @font-face {
-  font-family: "Roboto-Regular";       
-  src: url("./fonts/Roboto-Regular.ttf"); 
+  font-family: "Roboto-Regular";
+  src: url("./fonts/Roboto-Regular.ttf");
 }
 
 @font-face {
-  font-family: "Bruno";       
-  src: url("./fonts/Bruno\ Ace\ SC\ Regular.ttf"); 
+  font-family: "Bruno";
+  src: url("./fonts/Bruno\ Ace\ SC\ Regular.ttf");
 }
 
 @font-face {
-  font-family: "Arial-black";       
-  src: url("./fonts/ariblk.ttf"); 
+  font-family: "Arial-black";
+  src: url("./fonts/ariblk.ttf");
 }
 
 @font-face {
-  font-family: "Arial-black";       
-  src: url("./fonts/ariblk.ttf"); 
+  font-family: "Quicksand-Medium";
+  src: url("./fonts/Quicksand-Medium.ttf");
 }
 
 @font-face {
-  font-family: "Elice-regular";       
-  src: url("./fonts/EliceDigitalBaeumOTF_Regular.otf"); 
+  font-family: "Elice-regular";
+  src: url("./fonts/EliceDigitalBaeumOTF_Regular.otf");
 }
 
 @font-face {
-  font-family: "Klee-semibold";       
-  src: url("./fonts/KleeOne-SemiBold.ttf"); 
+  font-family: "Klee-semibold";
+  src: url("./fonts/KleeOne-SemiBold.ttf");
 }
 
 @font-face {
-  font-family: "Quantico-Bold";       
-  src: url("./fonts/Quantico-Bold.ttf"); 
+  font-family: "Quantico-Bold";
+  src: url("./fonts/Quantico-Bold.ttf");
 }
 
 @font-face {
-  font-family: "Quantico-Regular";       
-  src: url("./fonts/Quantico-Regular.ttf"); 
+  font-family: "Quantico-Regular";
+  src: url("./fonts/Quantico-Regular.ttf");
 }
 
 @font-face {
-  font-family: "AlegreyaSansSc-Medium";       
-  src: url("./fonts/AlegreyaSansSC-Medium.ttf"); 
+  font-family: "AlegreyaSansSc-Medium";
+  src: url("./fonts/AlegreyaSansSC-Medium.ttf");
+}
+
+@font-face {
+  font-family: "CoopcerBlackStd";
+  src: url("./fonts/CooperBlackStd.otf");
 }

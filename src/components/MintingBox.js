@@ -13,6 +13,7 @@ const MintingBox = () => {
           <div className="NFT-Box">
             <div>
               <p className="NFT-Name">COOKIEDOG Season 1 NFT</p>
+              <p className="NFT-Cookies">COOKIES</p>
               <p className="NFT-Number">vol. 1000 (50 cookies)</p>
             </div>
             <div className="Date-And-Button">

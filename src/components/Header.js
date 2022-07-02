@@ -16,23 +16,31 @@ const Header = () => {
           </Box>
         </Link>
 
-        <Link to="/allCookies" className="Cookies-Link">
-          <Box>
-            <HeadText>All Cookies</HeadText>
-          </Box>
-        </Link>
-
         <Link to="/prologue" className="Cookies-Link">
           <Box>
             <HeadText>Prologue</HeadText>
           </Box>
         </Link>
 
-        <Link to="/cookieDogTeam" className="Cookies-Link">
+        {/* <Link to="/allCookies" className="Cookies-Link">
+          <Box>
+            <DisableText>All Cookies</DisableText>
+          </Box>
+        </Link> */}
+
+        <Box>
+          <DisableText>All Cookies</DisableText>
+        </Box>
+
+        {/* <Link to="/cookieDogTeam" className="Cookies-Link">
           <Box>
             <DisableText>Our Songs</DisableText>
           </Box>
-        </Link>
+        </Link> */}
+
+        <Box>
+          <DisableText>Our Songs</DisableText>
+        </Box>
 
         <Link to="/cookieDogTeam" className="Cookies-Link">
           <Box>

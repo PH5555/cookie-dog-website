@@ -1,40 +1,16 @@
 import "./Home.css";
-import { useNavigate } from "react-router-dom";
 import React, { useState } from "react";
 import CookieCard from "../components/CookieCard";
-import { useScrollFadeIn } from "../hooks/useScrollFadeIn";
-import $ from "jquery";
 import MintingBox from "../components/MintingBox";
+import BottomBar from "../components/BottomBar";
+import ProjectDescription from "../components/ProjectDescriptionTemplate";
 
-function Home(props) {
+const Home = (props) => {
   const { open, setMax } = props;
-  const navigate = useNavigate();
-  const [emailInputVavlue, setemailInputVavlue] = useState("");
-  const [discordInputVavlue, setDiscordInputVavlue] = useState("");
-
-  const animatedItems = [
-    useScrollFadeIn(),
-    useScrollFadeIn(),
-    useScrollFadeIn(),
-  ];
-
-  const createUserData = () => {
-    $.ajax({
-      type: "GET",
-      url: "https://script.google.com/macros/s/AKfycbzfjtm8vFXK6CRmFBoC4_x-bZcFzUD9Tuh-sL9QIoA3DcSQAVdvyumYEYrTs84UaVhndQ/exec",
-      data: {
-        email: emailInputVavlue,
-        discord: discordInputVavlue,
-      },
-      success: function (response) {
-        alert("전송 완료");
-      },
-    });
-  };
 
   return (
     <div className="Home">
-      <div className="Top-Area">
+      <div className="Minting-Area">
         <img src="img/background.png" className="Background" />
         <MintingBox />
       </div>
@@ -60,134 +36,10 @@ function Home(props) {
         </div>
       </div> */}
 
-      <div className="Project-Description">
-        <div className="Main-Description-1">
-          <div>
-            <div className="Main-Description-Title">
-              <p id="Title-What-Is">WHAT IS</p>
-              <p>COOKIEDOG?</p>
-            </div>
-            <div className="Main-Description-Contents">
-              <p>
-                Cookiedog is a new generation of pop culture community that live
-                on the blockchain. They are fully interactive and evolve over
-                time unlocking new capabilities, games, and experiences – and
-                because they're NFTs, they're truly 100% yours.
-              </p>
-            </div>
-          </div>
-          <img
-            {...animatedItems[0]}
-            className="Main-Description-Image-1"
-            src="img/main_image_1.png"
-          />
-        </div>
-        <div className="Main-Description-2">
-          <img
-            {...animatedItems[1]}
-            className="Main-Description-Image-2"
-            src="img/main_image_2.png"
-          />
-          <div>
-            <div className="Main-Description-Title">
-              <p>WE SELL COOKIES</p>
-            </div>
-            <div className="Main-Description-Contents">
-              <p>
-                Cookie can be music, video, . all of contents we consume and
-                make our lives happy.<br></br>
-                <br></br>Every seoson you can buy limited version of cookies nft
-                of<br></br>cookiedog. and enjoy make expansion of piece of
-                contents.<br></br>I will be exciting and thriiled.<br></br>
-                build and expand all pieces of contents
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="Main-Description-3">
-          <div>
-            <div className="Main-Description-Title">
-              <p>Take the heart Candy</p>
-            </div>
-            <div className="Main-Description-Contents">
-              <p>
-                If you take heart candy, you can access cookiedog universe. You
-                can create you can be architect for coasis. just take the heart
-                candy and join our membership.
-              </p>
-              <div className="Description-Yes">
-                <p>Do you have matamask wallet?</p>
-                <div className="Candyshop-Button">
-                  <p>go to candyshop</p>
-                </div>
-              </div>
-              <div className="Description-No">
-                <p>
-                  If you don’t have wallet yet, please put your email and
-                  discord id. We will send you the heartcandy, and give you the
-                  membership roll
-                </p>
-                <form>
-                  <input
-                    onChange={(event) =>
-                      setemailInputVavlue(event.target.value)
-                    }
-                    className="Email-Input"
-                    type="text"
-                    placeholder="Email address"
-                  ></input>
-                </form>
-                <div>
-                  <form>
-                    <input
-                      onChange={(event) =>
-                        setDiscordInputVavlue(event.target.value)
-                      }
-                      className="Discord-Input"
-                      type="text"
-                      placeholder="discord ID"
-                    ></input>
-                  </form>
-                  <div className="Send-Button" onClick={createUserData}>
-                    <p>send</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <img
-            {...animatedItems[2]}
-            className="Main-Description-Image-3"
-            src="img/main_image_3.png"
-          />
-        </div>
-      </div>
-
-      <div className="Bottom-Bar">
-        <div className="Info">
-          <img className="White-Logo" src="img/logo-white.png"></img>
-          <div className="Contact">
-            <div className="SNS-List">
-              <img className="SNS" src="img/discord_icon.svg"></img>
-              <p>Discord</p>
-            </div>
-            <div className="SNS-List">
-              <img className="SNS" src="img/twitter_icon.svg"></img>
-              <p>Twitter</p>
-            </div>
-            <div className="SNS-List">
-              <img className="SNS" src="img/insta_icon.svg"></img>
-              <p>Instagram</p>
-            </div>
-            <div className="SNS-List">
-              <img className="SNS" src="img/opensea_icon.svg"></img>
-              <p>Opensea</p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <ProjectDescription />
+      <BottomBar />
     </div>
   );
-}
+};
 
 export default Home;

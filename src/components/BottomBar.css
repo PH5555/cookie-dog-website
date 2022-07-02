@@ -1,0 +1,41 @@
+.Bottom-Bar {
+  min-width: 128rem;
+  background-color: black;
+}
+
+.Info {
+  position: relative;
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 244px;
+  margin-left: 12.5rem;
+}
+
+.White-Logo {
+  position: absolute;
+  width: 20.7rem;
+}
+
+.Contact {
+  position: absolute;
+  margin-left: 30.7rem;
+  margin-top: 20px;
+}
+
+.SNS-List {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.SNS {
+  width: 25px;
+}
+
+.SNS-List > p {
+  margin: 0 auto;
+  color: white;
+  font-family: "Heebo";
+  font-size: 14px;
+  margin-left: 29px;
+}
