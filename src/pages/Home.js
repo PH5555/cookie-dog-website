@@ -4,16 +4,17 @@ import CookieCard from "../components/CookieCard";
 import MintingBox from "../components/MintingBox";
 import BottomBar from "../components/BottomBar";
 import ProjectDescription from "../components/ProjectDescriptionTemplate";
+import styled from "styled-components";
 
 const Home = (props) => {
   const { open, setMax } = props;
 
   return (
     <div className="Home">
-      <div className="Minting-Area">
-        <img src="img/background.png" className="Background" />
+      <MintingArea>
+        <Background src="img/background.png" />
         <MintingBox />
-      </div>
+      </MintingArea>
 
       {/* <div className="View-Cookies-Home-Area">
         <img src="img/flow.png" className="Flow-Image" />
@@ -41,5 +42,16 @@ const Home = (props) => {
     </div>
   );
 };
+
+const Background = styled.img`
+  width: 100%;
+`;
+
+const MintingArea = styled.div`
+  min-width: 128rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
 
 export default Home;

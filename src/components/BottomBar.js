@@ -1,32 +1,60 @@
 import React from "react";
-import "./BottomBar.css";
+import styled from "styled-components";
 
 const BottomBar = () => {
+  const snsList = ["discord", "twitter", "instagram", "opensea"];
   return (
-    <div className="Bottom-Bar">
-      <div className="Info">
-        <img className="White-Logo" src="img/logo-white.png"></img>
-        <div className="Contact">
-          <div className="SNS-List">
-            <img className="SNS" src="img/discord_icon.svg"></img>
-            <p>Discord</p>
-          </div>
-          <div className="SNS-List">
-            <img className="SNS" src="img/twitter_icon.svg"></img>
-            <p>Twitter</p>
-          </div>
-          <div className="SNS-List">
-            <img className="SNS" src="img/insta_icon.svg"></img>
-            <p>Instagram</p>
-          </div>
-          <div className="SNS-List">
-            <img className="SNS" src="img/opensea_icon.svg"></img>
-            <p>Opensea</p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <Container>
+      <Logo src="img/logo-white.png" />
+      <SnsListCover>
+        {snsList.map((sns) => (
+          <SnsListItem>
+            <Image src={`img/${sns}_icon.svg`} />
+            <Text>${sns[0].toUpperCase() + sns.slice(1)}</Text>
+          </SnsListItem>
+        ))}
+      </SnsListCover>
+    </Container>
   );
 };
+
+const Container = styled.div`
+  min-width: 128rem;
+  background-color: black;
+  position: relative;
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 244px;
+  padding-left: 12.5rem;
+`;
+
+const Logo = styled.img`
+  position: absolute;
+  width: 20.7rem;
+`;
+
+const SnsListCover = styled.div`
+  position: absolute;
+  margin-left: 30.7rem;
+  margin-top: 20px;
+`;
+
+const SnsListItem = styled.div`
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+`;
+
+const Image = styled.img`
+  width: 25px;
+`;
+
+const Text = styled.div`
+  margin: 0 auto;
+  color: white;
+  font-family: "Heebo";
+  font-size: 14px;
+  margin-left: 29px;
+`;
 
 export default BottomBar;

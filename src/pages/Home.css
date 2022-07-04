@@ -1,21 +1,3 @@
-.Minting-Area {
-  height: max(53.628vw, 68.6rem);
-  min-width: 128rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  outline: none;
-  border: none;
-}
-
-.Background {
-  width: 100%;
-}
-
-.Main-Image {
-  width: max(20.98vw, 251px);
-}
-
 .Cookies {
   outline: none;
   border: none;
@@ -63,8 +45,4 @@
   text-align: center;
   background-color: black;
   border-radius: 14px;
-}
-
-*:focus {
-  outline: none;
 }
