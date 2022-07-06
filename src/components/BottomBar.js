@@ -10,7 +10,7 @@ const BottomBar = () => {
         {snsList.map((sns) => (
           <SnsListItem>
             <Image src={`img/${sns}_icon.svg`} />
-            <Text>${sns[0].toUpperCase() + sns.slice(1)}</Text>
+            <Text>{sns[0].toUpperCase() + sns.slice(1)}</Text>
           </SnsListItem>
         ))}
       </SnsListCover>

@@ -29,20 +29,22 @@ const CandyTemplate = (props) => {
 };
 
 const Container = styled.div`
-  width: 23rem;
-  height: 21.4rem;
+  min-width: 16.8rem;
+  width: 11.979vw;
+  height: 11.1458vw;
   position: relative;
-  margin-left: calc((100% - 118.3rem) / 5);
+  margin-left: 3.177vw;
   margin-bottom: 8.5rem;
 `;
 
 const Box = styled.div`
+  min-width: 16.8rem;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  width: 23rem;
-  height: 21.4rem;
+  width: 11.979vw;
+  height: 11.1458vw;
   z-index: 2;
 `;
 

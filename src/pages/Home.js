@@ -1,4 +1,5 @@
 import "./Home.css";
+import { useNavigate } from "react-router-dom";
 import React, { useState } from "react";
 import CookieCard from "../components/CookieCard";
 import MintingBox from "../components/MintingBox";
@@ -7,6 +8,7 @@ import ProjectDescription from "../components/ProjectDescriptionTemplate";
 import styled from "styled-components";
 
 const Home = (props) => {
+  const navigate = useNavigate();
   const { open, setMax } = props;
 
   return (

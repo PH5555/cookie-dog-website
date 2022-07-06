@@ -61,9 +61,10 @@ const ProjectDescriptionTemplate = () => {
           </div>
           <div className="Main-Description-Contents">
             <p>
-              If you take heart candy, you can access cookiedog universe. You
-              can create you can be architect for coasis. just take the heart
-              candy and join our membership.
+              Cookiedog is a new generation of pop culture community that live
+              on the blockchain. They are fully interactive and evolve over time
+              unlocking new capabilities, games, and experiences – and because
+              they're NFTs, they're truly 100% yours.
             </p>
             <div className="Description-Yes">
               <div className="Candyshop-Button">

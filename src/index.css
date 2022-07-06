@@ -86,3 +86,7 @@ code {
   font-family: "CoopcerBlackStd";
   src: url("./fonts/CooperBlackStd.otf");
 }
+
+a {
+  text-decoration: none;
+}

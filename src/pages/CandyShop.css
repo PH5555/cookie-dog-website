@@ -34,13 +34,14 @@
 }
 
 .Candy-List {
-  width: calc(100% - 16.8rem - 16.8rem);
+  min-width: 120rem;
+  width: 82.5vw;
   background-color: #1f1f1f;
   border-radius: 1.6rem;
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  padding-left: 3.3rem;
+  padding-left: 2.718vw;
   padding-top: 6.6rem;
   margin-bottom: 20rem;
 }
