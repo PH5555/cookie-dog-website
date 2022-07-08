@@ -8,7 +8,6 @@ const CandyTemplate = (props) => {
   const BlurImage = styled.img`
     position: absolute;
     width: 100%;
-    opacity: ${isHovering ? 0.5 : 1};
   `;
 
   return (
@@ -17,7 +16,7 @@ const CandyTemplate = (props) => {
         <Box onMouseOut={() => setIsHovering(false)}>
           <Button size="big">BUY</Button>
           <Button size="small">
-            <Image src="img/download.svg" />
+            <Image src="img/download_candy.svg" />
           </Button>
         </Box>
       ) : (
@@ -45,20 +44,24 @@ const Box = styled.div`
   position: absolute;
   width: 11.979vw;
   height: 11.1458vw;
+  background-color: rgba(255, 255, 255, 0.3);
   z-index: 2;
 `;
 
 const Button = styled.div`
   background-color: #210253;
-  border-radius: 2.2rem;
-  height: 4.8rem;
+  border-radius: ${(props) => (props.size === "small" ? "1.9rem" : "2.2rem")};
+  height: 4.6rem;
   display: flex;
+  font-family: "Quantico-Regular";
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 2.5rem;
-  margin-right: 0.6rem;
-  width: ${(props) => (props.size === "small" ? "5rem;" : "14.6rem")};
+  font-size: 2.1rem;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-right: 0.4rem;
+  width: ${(props) => (props.size === "small" ? "5rem;" : "12rem")};
 `;
 
 const Image = styled.img`

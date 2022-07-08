@@ -25,7 +25,7 @@ const Header = () => {
     position: fixed;
     padding-top: 2rem;
     padding-bottom: 1rem;
-    background-color: ${isAtHome ? "#e8437e" : "transparent"};
+    background-color: ${isAtHome ? "#fc297e" : "transparent"};
   `;
 
   const Box = styled.div`
@@ -43,7 +43,7 @@ const Header = () => {
     &:hover {
       background-color: ${isAtHome
         ? "rgba(255, 255, 255, 0.15)"
-        : "rgba(168, 141, 141, 0.18)"};
+        : "rgba(168, 141, 141, 0.28)"};
     }
   `;
 
@@ -71,6 +71,10 @@ const Header = () => {
     margin-left: 2rem;
     margin-bottom: 0.5rem;
     border: ${isAtHome ? "1pt solid white" : "none"};
+
+    &:hover {
+      transform: scale(1.02);
+    }
   `;
 
   return (

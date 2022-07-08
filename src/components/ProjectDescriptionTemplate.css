@@ -61,11 +61,13 @@
   color: #ccff00;
   margin-top: 7rem;
   font-size: 2.9rem;
+  font-weight: bold;
 }
 
 .Discord {
   color: #3d8aff;
-  font-size: 2.7rem;
+  font-size: 2.5rem;
+  font-weight: 600;
 }
 
 .Candyshop-Button > p {

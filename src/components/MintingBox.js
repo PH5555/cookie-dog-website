@@ -5,11 +5,12 @@ const MintingBox = () => {
   return (
     <Container>
       <TitleCover>
-        <Text type="title" color="#e8437e">
+        <Text type="title" color="#fc297e">
           COOKIEDOG
         </Text>
       </TitleCover>
       <MintBox>
+        <Flow src="img/flow.png" />
         <Image src="img/sample.png" />
         <InfoBox>
           <Text type="name">COOKIEDOG Season 1 NFT</Text>
@@ -17,7 +18,7 @@ const MintingBox = () => {
           <Text type="number">vol. 1000 (50 cookies)</Text>
           <Text type="date">6 April, 12PM EDT</Text>
           <Button>Mint Now</Button>
-          <Text type="situation">20/20</Text>
+          <Text type="situation">1000/1000</Text>
         </InfoBox>
       </MintBox>
     </Container>
@@ -28,21 +29,29 @@ const Container = styled.div`
   width: 100%;
   position: absolute;
   padding-top: 19rem;
-  height: max(52.083vw, 66.7rem);
+
   outline: none;
   border: none;
   display: flex;
 `;
 
+const Flow = styled.img`
+  width: 21rem;
+  position: absolute;
+  right: 50px;
+  top: -21px;
+  transform: rotate(3deg);
+`;
+
 const Button = styled.div`
-  width: max(13.6458vw, 19.6rem);
-  height: max(2.8vw, 4rem);
+  width: 19.6rem;
+  height: 4rem;
   border-radius: 14px;
   background-color: #c4c4c4;
   color: white;
   text-align: center;
-  line-height: max(2.8vw, 4rem);
-  font-size: max(1.458vw, 2rem);
+  line-height: 4rem;
+  font-size: 2rem;
   font-weight: bold;
 `;
 
@@ -66,7 +75,7 @@ const MintBox = styled.div`
   margin-bottom: 11.1rem;
   border-radius: 20px;
   float: left;
-  border: 1.2rem solid #e8437e;
+  border: 1.2rem solid #fc297e;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
 `;
 
@@ -102,7 +111,7 @@ const TextStyles = css`
   ${(props) =>
     props.type === "cookies" &&
     css`
-      font-size: 3.7rem;
+      font-size: 3.5rem;
       margin: 0;
       font-family: "Frijole-Rejular";
     `} 
@@ -120,7 +129,7 @@ const TextStyles = css`
     css`
       font-family: "Quantico-Bold";
       margin-top: 5rem;
-      font-size: max(2vw, 2.8rem);
+      font-size: 2.8rem;
       margin-bottom: 1px;
     `}
 
@@ -129,14 +138,14 @@ const TextStyles = css`
     css`
       margin-top: 15.3%;
       font-family: "Quantico-Bold";
-      font-size: max(1.8vw, 2.5rem);
+      font-size: 2.4rem;
       margin-bottom: 1.5rem;
     `}
 
   ${(props) =>
     props.type === "situation" &&
     css`
-      font-size: max(1.3vw, 1.9rem);
+      font-size: 1.8rem;
       margin-top: 1.2rem;
       font-family: "Quantico-Regular";
     `}

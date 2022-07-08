@@ -1,99 +1,100 @@
-.Prologue{
-    min-width: 120rem;
-    width: 100%;
-    height: auto;
-    background-color: black;
-    text-align: center;
+.Prologue {
+  min-width: 120rem;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  text-align: center;
 }
 
-.Prologue-Title{
-    font-size: 5rem;
-    font-family: "Rockwell";
-    color: white;
-    padding-top: 28.1rem;
+.Prologue-Title {
+  font-size: 5rem;
+  font-family: "Rockwell";
+  color: white;
+  padding-top: 28.1rem;
 }
 
-#Title-Text-En{
-    padding-top: 20.2rem;
+#Title-Text-En {
+  padding-top: 20.2rem;
 }
 
-#Title-Text-Kr{
-    padding-top: 5.8rem;
+#Title-Text-Kr {
+  padding-top: 5.8rem;
 }
 
-.Content-En{
-    font-family: "Klee-semibold";
-    font-size: 2.6rem;
-    line-height: 4.5rem;
-    color: white;
+.Content-En {
+  font-family: "Klee-semibold";
+  font-size: 2.6rem;
+  line-height: 4.5rem;
+  color: white;
 }
 
-.Content-Kr{
-    font-family: "Elice-regular";
-    font-size: 2.1rem;
-    line-height: 4.5rem;
-    color: white;
+.Content-Kr {
+  font-family: "Elice-regular";
+  font-size: 1.8rem;
+  letter-spacing: 0.3rem;
+  line-height: 4.5rem;
+  color: white;
 }
 
-.Content-1{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 21.8rem;
+.Content-1 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 21.8rem;
 }
 
-#content1-text{
-    padding-top: 5.8rem;
+#content1-text {
+  padding-top: 5.8rem;
 }
 
-.Img1{
-    width: 40%;
-    padding-left: 7%;
+.Img1 {
+  width: 40%;
+  padding-left: 7%;
 }
 
-.Content-2{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 22.7rem;
+.Content-2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 22.7rem;
 }
 
-#content2-text{
-    padding-top: 6.2rem;
+#content2-text {
+  padding-top: 6.2rem;
 }
 
-.Img2{
-    width: 40%;
-    padding-right: 3%;
+.Img2 {
+  width: 40%;
+  padding-right: 3%;
 }
 
-.Content-3{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 33.5rem;
+.Content-3 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 33.5rem;
 }
 
-.Img3{
-    width: 28%;
-    padding-left: 10%;
+.Img3 {
+  width: 28%;
+  padding-left: 10%;
 }
 
-#content3-text{
-    padding-top: 9.5rem;
+#content3-text {
+  padding-top: 9.5rem;
 }
 
-.Content-4{
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 23.4rem;
+.Content-4 {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 23.4rem;
 }
 
-.Img4{
-    width: 41%;
-    padding-top: 4.1rem;
+.Img4 {
+  width: 41%;
+  padding-top: 4.1rem;
 }
