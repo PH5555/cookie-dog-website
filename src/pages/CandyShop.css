@@ -13,12 +13,12 @@
   align-items: flex-end;
   width: calc(100% - 16.8rem - 16.8rem);
   margin-left: 6.4rem;
-  margin-top: 10rem;
+  margin-top: 7rem;
 }
 
 .Candyshop-Big-Title {
   color: white;
-  font-size: 5rem;
+  font-size: 4rem;
   margin: 0;
   font-family: "Candal-Regular";
 }
@@ -27,13 +27,13 @@
   margin-top: 2rem;
   font-family: "Quicksand-Medium";
   color: white;
-  line-height: 3.5rem;
-  font-size: 2.2rem;
-  margin-bottom: 7rem;
+  line-height: 3.2rem;
+  font-size: 1.7rem;
+  margin-bottom: 4rem;
 }
 
 .Candyshop-Image {
-  width: 42.8rem;
+  width: 40rem;
   margin-bottom: 2rem;
 }
 
