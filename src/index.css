@@ -87,6 +87,21 @@ code {
   src: url("./fonts/CooperBlackStd.otf");
 }
 
+@font-face {
+  font-family: "Frijole-Rejular";
+  src: url("./fonts/Frijole-Regular.ttf");
+}
+
+@font-face {
+  font-family: "hemi-head";
+  src: url("./fonts/hemi\ head\ bd\ it.ttf");
+}
+
+@font-face {
+  font-family: "Candal-Regular";
+  src: url("./fonts/Candal-Regular.ttf");
+}
+
 a {
   text-decoration: none;
 }

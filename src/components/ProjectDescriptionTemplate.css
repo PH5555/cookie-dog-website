@@ -23,16 +23,16 @@
 }
 
 .Main-Description-1 {
-  margin-top: 15rem;
+  margin-top: 11rem;
   width: 86%;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 
 #Title-What-Is {
   font-size: 6rem;
   color: white;
-  font-family: "Arial";
+  font-family: "hemi-head";
 }
 
 .Main-Description-Title > p {
@@ -54,6 +54,18 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  cursor: pointer;
+}
+
+.Season {
+  color: #ccff00;
+  margin-top: 7rem;
+  font-size: 2.9rem;
+}
+
+.Discord {
+  color: #3d8aff;
+  font-size: 2.7rem;
 }
 
 .Candyshop-Button > p {
@@ -151,12 +163,7 @@
 }
 
 .Main-Description-Image-3 {
-  margin-top: 5rem;
   width: 32vw;
-}
-
-.Main-Description-3 > div {
-  margin-top: 18rem;
 }
 
 .Main-Description-2 {

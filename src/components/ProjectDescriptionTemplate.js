@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./ProjectDescriptionTemplate.css";
+import { useNavigate } from "react-router-dom";
 import { useScrollFadeIn } from "../hooks/useScrollFadeIn";
 
 const ProjectDescriptionTemplate = () => {
@@ -8,6 +9,8 @@ const ProjectDescriptionTemplate = () => {
     useScrollFadeIn(),
     useScrollFadeIn(),
   ];
+
+  const navigate = useNavigate();
 
   return (
     <div className="Project-Description">
@@ -67,9 +70,20 @@ const ProjectDescriptionTemplate = () => {
               they're NFTs, they're truly 100% yours.
             </p>
             <div className="Description-Yes">
-              <div className="Candyshop-Button">
+              <div
+                className="Candyshop-Button"
+                onClick={() => navigate("/candyShop")}
+              >
                 <p>go to candyshop</p>
               </div>
+            </div>
+            <div>
+              <p className="Season">
+                Only Seoson 1 !!
+                <br />
+                all users can get cookiedog role(discord) without
+              </p>
+              <p className="Discord">CookieDOG Discord ></p>
             </div>
           </div>
         </div>

@@ -67,6 +67,7 @@ const MintBox = styled.div`
   border-radius: 20px;
   float: left;
   border: 1.2rem solid #e8437e;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
 `;
 
 const InfoBox = styled.div`
@@ -103,6 +104,7 @@ const TextStyles = css`
     css`
       font-size: 3.7rem;
       margin: 0;
+      font-family: "Frijole-Rejular";
     `} 
 
   ${(props) =>
@@ -117,7 +119,7 @@ const TextStyles = css`
     props.type === "name" &&
     css`
       font-family: "Quantico-Bold";
-      margin-top: 6.3rem;
+      margin-top: 5rem;
       font-size: max(2vw, 2.8rem);
       margin-bottom: 1px;
     `}
@@ -127,7 +129,7 @@ const TextStyles = css`
     css`
       margin-top: 15.3%;
       font-family: "Quantico-Bold";
-      font-size: max(1.9vw, 2.7rem);
+      font-size: max(1.8vw, 2.5rem);
       margin-bottom: 1.5rem;
     `}
 

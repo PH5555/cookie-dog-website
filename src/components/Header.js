@@ -18,7 +18,7 @@ const Header = () => {
     min-width: 1125px;
     align-items: center;
     display: flex;
-    height: 3.75rem;
+    height: 3.1rem;
     width: 100%;
     top: 0;
     left: 0;
@@ -30,7 +30,7 @@ const Header = () => {
 
   const Box = styled.div`
     background-color: ${isAtHome
-      ? "rgba(255, 255, 255, 0.3)"
+      ? "rgba(255, 255, 255, 0.08)"
       : "rgba(168, 141, 141, 0.18)"};
     border-radius: 5px;
     margin-right: 0.9rem;
@@ -38,6 +38,13 @@ const Header = () => {
     padding-right: 1.5rem;
     padding-top: 0.4rem;
     padding-bottom: 0.4rem;
+    position: relative;
+
+    &:hover {
+      background-color: ${isAtHome
+        ? "rgba(255, 255, 255, 0.15)"
+        : "rgba(168, 141, 141, 0.18)"};
+    }
   `;
 
   const Text = styled.p`
@@ -52,8 +59,8 @@ const Header = () => {
 
   const Button = styled.div`
     width: 20rem;
-    height: 4.5rem;
-    line-height: 4.5rem;
+    height: 4.05rem;
+    line-height: 4.05rem;
     background-color: ${isAtHome ? "black" : "#ff0057"};
     color: white;
     font-weight: bold;
@@ -62,20 +69,21 @@ const Header = () => {
     border-radius: 14px;
     font-size: 1.5rem;
     margin-left: 2rem;
-
+    margin-bottom: 0.5rem;
     border: ${isAtHome ? "1pt solid white" : "none"};
   `;
 
   return (
     <Container>
       <Link to="/">
-        <Image src={isAtHome ? "img/logo_black.png" : "img/logo.png"} />
+        <Logo src={isAtHome ? "img/logo_black.png" : "img/logo.png"} />
       </Link>
       <Menu>
         {pages.map((page) =>
           page.isDisable ? (
             <Box>
               <Text disabled>{page.name}</Text>
+              <Image soon src="img/soon.PNG" />
             </Box>
           ) : (
             <Link
@@ -86,6 +94,11 @@ const Header = () => {
             >
               <Box>
                 <Text>{page.name}</Text>
+                {page.name === "Candy Shop" ? (
+                  <Image src="img/candy_sample.PNG" />
+                ) : (
+                  ""
+                )}
               </Box>
             </Link>
           )
@@ -102,9 +115,17 @@ const Header = () => {
   );
 };
 
-const Image = styled.img`
+const Logo = styled.img`
   margin-left: 6rem;
   height: 4.5rem;
+`;
+
+const Image = styled.img`
+  width: 1.9rem;
+  position: absolute;
+  right: 0;
+  top: ${(props) => (props.soon ? "-5px" : "-7px")};
+  transform: ${(props) => (props.soon ? "rotate(-2deg)" : "rotate(15deg)")};
 `;
 
 const IconBox = styled.img`
