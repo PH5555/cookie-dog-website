@@ -33,6 +33,7 @@ const ProjectDescriptionTemplate = () => {
           {...animatedItems[0]}
           className="Main-Description-Image-1"
           src="img/main_image_1.png"
+          loading="lazy"
         />
       </div>
       <div className="Main-Description-2">
@@ -40,6 +41,7 @@ const ProjectDescriptionTemplate = () => {
           {...animatedItems[1]}
           className="Main-Description-Image-2"
           src="img/main_image_2.png"
+          loading="lazy"
         />
         <div>
           <div className="Main-Description-Title">
@@ -91,6 +93,7 @@ const ProjectDescriptionTemplate = () => {
           {...animatedItems[2]}
           className="Main-Description-Image-3"
           src="img/main_image_3.png"
+          loading="lazy"
         />
       </div>
     </div>

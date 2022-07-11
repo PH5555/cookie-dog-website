@@ -10,11 +10,13 @@ import styled from "styled-components";
 const Home = (props) => {
   const navigate = useNavigate();
   const { open, setMax } = props;
+  const [imgLoad, setImgLoad] = useState(false);
 
   return (
     <div className="Home">
       <MintingArea>
-        <Background src="img/background.png" />
+        {imgLoad ? <PlaceHolder /> : ""}
+        <Background src="img/background.png" onLoad={() => setImgLoad(true)} />
         <MintingBox />
       </MintingArea>
 
@@ -53,6 +55,12 @@ const MintingArea = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+`;
+
+const PlaceHolder = styled.div`
+background: #010225,
+height: 100%,
+width: 56.25vw,
 `;
 
 export default Home;
