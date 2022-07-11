@@ -87,7 +87,7 @@ const Header = () => {
           page.isDisable ? (
             <Box>
               <Text disabled>{page.name}</Text>
-              <Image soon src="img/soon.PNG" />
+              <Image soon src="img/soon.png" />
             </Box>
           ) : (
             <Link
