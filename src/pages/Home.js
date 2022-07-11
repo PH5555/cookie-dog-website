@@ -15,7 +15,7 @@ const Home = (props) => {
   return (
     <div className="Home">
       <MintingArea>
-        {imgLoad ? <PlaceHolder /> : ""}
+        {imgLoad ? "" : <PlaceHolder />}
         <Background src="img/background.png" onLoad={() => setImgLoad(true)} />
         <MintingBox />
       </MintingArea>
