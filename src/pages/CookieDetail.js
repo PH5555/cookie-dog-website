@@ -1,6 +1,6 @@
 import "./CookieDetail.css";
 
-function CookieDetail(props) {
+const CookieDetail = (props) => {
   const { open } = props;
   return (
     <div className="Cookie-Detail">
@@ -108,6 +108,6 @@ function CookieDetail(props) {
       </div>
     </div>
   );
-}
+};
 
 export default CookieDetail;

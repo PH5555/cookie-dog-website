@@ -19,7 +19,6 @@ const Home = (props) => {
       </MintingArea>
 
       {/* <div className="View-Cookies-Home-Area">
-        <img src="img/flow.png" className="Flow-Image" />
         <div className="Cookies">
           <div className="Cookies-Area-Title">ALL COOKIES</div>
           <div className="Cookies-List">

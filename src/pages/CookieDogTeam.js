@@ -1,7 +1,7 @@
 import "./CookieDogTeam.css";
 import Box from "../components/TeamDescripitionBox";
 
-function CookieDogTeam() {
+const CookieDogTeam = () => {
   const members = [
     { name: "Rodney", role: "Founder & Graphic Designer" },
     { name: "Dr. Ahn", role: "KPOP producer" },
@@ -36,6 +36,6 @@ function CookieDogTeam() {
       </div>
     </div>
   );
-}
+};
 
 export default CookieDogTeam;

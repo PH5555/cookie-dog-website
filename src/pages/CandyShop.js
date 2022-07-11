@@ -1,7 +1,7 @@
 import "./CandyShop.css";
 import CandyTemplate from "../components/CandyTemplate";
 
-function CandyShop() {
+const CandyShop = () => {
   return (
     <div className="Candyshop">
       <div className="Candyshop-Title">
@@ -38,6 +38,6 @@ function CandyShop() {
       </div>
     </div>
   );
-}
+};
 
 export default CandyShop;

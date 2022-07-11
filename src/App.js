@@ -9,7 +9,7 @@ import CandyShop from "./pages/CandyShop";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import MusicBottomBar from "../src/components/MusicBottomBar";
 
-function App() {
+const App = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [max, setMax] = useState(0);
 
@@ -40,6 +40,6 @@ function App() {
       </Router>
     </div>
   );
-}
+};
 
 export default App;
