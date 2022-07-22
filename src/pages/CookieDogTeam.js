@@ -20,10 +20,10 @@ const CookieDogTeam = () => {
     <div className="Team-Description">
       <div className="Title">COOKIEDOG Team</div>
       <div className="Detail">
-        We're looking for creative artists and love pop culture.<br></br>Our
-        vision is ambitious: we want to honor the value of music by giving a
-        million artists the opportunity.<br></br>We're building for an
-        metaverse.
+        The core team consists of music producers, artists, and blockchain
+        engineers with rich experience and networks
+        <br /> in the K-Pop industry. We will revolutionize the entertainment
+        industry by establishing a new system of participation and compensation.
       </div>
       <div className="Team-List">
         {members.map((member, i) => (

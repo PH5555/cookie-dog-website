@@ -8,9 +8,10 @@ const CandyShop = () => {
         <div>
           <p className="Candyshop-Big-Title">SELECT YOUR HEART CANDY</p>
           <p className="Candyshop-Small-Title">
-            Cookiedog is a new generation of pop culture community that live on
-            the blockchain. They are fully interactive and evolve over time
-            unlocking new capabilities, games, and
+            Once you eat the heart candy, you can become a Cookie dog and enter
+            the Coasis - the Cookiedog universe. Global artists and pop culture
+            fans will communicate and create content together to rebuild the
+            Coasis.
           </p>
         </div>
         <img className="Candyshop-Image" src="img/candyshop_background.png" />

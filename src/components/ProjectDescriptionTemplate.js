@@ -22,10 +22,22 @@ const ProjectDescriptionTemplate = () => {
           </div>
           <div className="Main-Description-Contents">
             <p>
-              Cookiedog is a new generation of pop culture community that live
-              on the blockchain. They are fully interactive and evolve over time
-              unlocking new capabilities, games, and experiences – and because
-              they're NFTs, they're truly 100% yours.
+              CookieDOG is a new generation of decentralized music production
+              for pop culture fans from across the globe to communicate and
+              collaborate. The Coasis, the CookieDOG universe we’re going to
+              create together, is virtual but at the same time, it’s real.
+              <br />
+              <br />
+              Our identity is malleable in this place - you can make it up to
+              your desired shape or let it disappear. Rebuilding the Coasis
+              where different identities and art coexist, we share our
+              inspirations with each other and cooperate to create an imaginary
+              creature.
+              <br />
+              <br />
+              There’s no designated path or destination. The universe each
+              participant imagines infinitely expands like a parallel universe,
+              and we travel to different universes like a star in the sky.
             </p>
           </div>
         </div>
@@ -45,16 +57,19 @@ const ProjectDescriptionTemplate = () => {
         />
         <div>
           <div className="Main-Description-Title">
-            <p>WE SELL COOKIES</p>
+            <p>WE MAKE COOKIES</p>
           </div>
           <div className="Main-Description-Contents">
             <p>
-              Cookie can be music, video, . all of contents we consume and make
-              our lives happy.<br></br>
-              <br></br>Every seoson you can buy limited version of cookies nft
-              of<br></br>cookiedog. and enjoy make expansion of piece of
-              contents.<br></br>I will be exciting and thriiled.<br></br>
-              build and expand all pieces of contents
+              In a broader sense, we define Cookies as all forms of culture,
+              art, and contents we consume. In a narrower sense, Cookie means
+              NFT CookieDOG releases each season. Cookie NFT contains
+              fractionalized music data and is pegged to “OVN”, a character that
+              came to the real world.
+              <br />
+              <br />
+              Cookie NFT holders have influence over artists that the community
+              will discover and grow.
             </p>
           </div>
         </div>
@@ -66,10 +81,12 @@ const ProjectDescriptionTemplate = () => {
           </div>
           <div className="Main-Description-Contents">
             <p>
-              Cookiedog is a new generation of pop culture community that live
-              on the blockchain. They are fully interactive and evolve over time
-              unlocking new capabilities, games, and experiences – and because
-              they're NFTs, they're truly 100% yours.
+              Once you eat the heart candy, you can become a Cookie dog and
+              enter the Coasis - the Cookiedog universe. Global artists and pop
+              culture fans will communicate and create content together to
+              rebuild the Coasis. All the heart candies are free and you can
+              claim them in the candy shop by connecting your Metamask wallet
+              (Gas fee applies)
             </p>
             <div className="Description-Yes">
               <div
@@ -81,9 +98,9 @@ const ProjectDescriptionTemplate = () => {
             </div>
             <div>
               <p className="Season">
-                Only Seoson 1 !!
-                <br />
-                all users can get cookiedog role(discord) without
+                only for Season 1<br />
+                Early joiners of the CookieDOG server will become cookie dogs
+                without eating the heart candy
               </p>
               <p className="Discord">CookieDOG Discord ></p>
             </div>
